@@ -1,0 +1,4608 @@
+{
+  "generatedAt": "2026-06-04T12:10:04.516Z",
+  "source": "https://petdex.crafter.run/api/pets/search?sort=recent&limit=48",
+  "total": 2895,
+  "pets": [
+    {
+      "slug": "nickel-file-corner",
+      "displayName": "Nickel File Corner",
+      "description": "A compact nickel file corner with two rounded caps and a smooth inset.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/nickel-file-corner-ee78489552b1/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/nickel-file-corner-ee78489552b1/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/nickel-file-corner-ee78489552b1/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "calm",
+        "focused"
+      ],
+      "tags": [
+        "nickel",
+        "file-corner",
+        "rounded-caps",
+        "smooth-inset",
+        "corner-protector"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#bfa175",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-06-04T05:25:35.802Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 0,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "paper-sleeve-holder",
+      "displayName": "Paper Sleeve Holder",
+      "description": "A compact paper sleeve holder with a folded lip and smooth clasp.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/paper-sleeve-holder-4cb5ba8459b3/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/paper-sleeve-holder-4cb5ba8459b3/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/paper-sleeve-holder-4cb5ba8459b3/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "calm",
+        "focused",
+        "wholesome"
+      ],
+      "tags": [
+        "paper-sleeve",
+        "sleeve-holder",
+        "folded-lip",
+        "smooth-clasp",
+        "stationery"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#c47404",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-06-04T05:25:32.331Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 0,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "maple-drawer-runner",
+      "displayName": "Maple Drawer Runner",
+      "description": "A short maple drawer runner with one polished glide line.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/maple-drawer-runner-fd53768bbf58/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/maple-drawer-runner-fd53768bbf58/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/maple-drawer-runner-fd53768bbf58/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "calm",
+        "focused",
+        "wholesome"
+      ],
+      "tags": [
+        "maple",
+        "drawer-runner",
+        "glide-line",
+        "polished",
+        "furniture"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#e49b48",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-06-04T05:25:31.726Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 0,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "spirit-blossom-sett",
+      "displayName": "Spirit Blossom Sett",
+      "description": "A pixel-art Spirit Blossom brawler pet inspired by Sett, with white hair, fox ears, purple robes, beads, and spirit energy fists.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/spirit-blossom-sett-efc766b3a4c7/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/spirit-blossom-sett-efc766b3a4c7/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/spirit-blossom-sett-efc766b3a4c7/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "mystical",
+        "heroic"
+      ],
+      "tags": [
+        "spirit-blossom",
+        "sett",
+        "fox-ears",
+        "spirit-fists",
+        "purple-robes"
+      ],
+      "colorFamily": "blue",
+      "dominantColor": "#42c3eb",
+      "submittedByName": "sqy874",
+      "approvedAt": "2026-06-04T05:24:58.780Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "adina",
+      "displayName": "Adina",
+      "description": "A gentle quiet chibi pixel-art astrologer girl who predicts code quality through a crystal ball and star movements.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/adina-8daeb9623ce1/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/adina-8daeb9623ce1/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/adina-8daeb9623ce1/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "calm",
+        "mystical",
+        "focused"
+      ],
+      "tags": [
+        "chibi",
+        "astrologer",
+        "crystal-ball",
+        "code-quality",
+        "pixel-art"
+      ],
+      "colorFamily": "blue",
+      "dominantColor": "#2d4999",
+      "submittedByName": "apamea-kelly",
+      "approvedAt": "2026-06-04T05:24:57.777Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "sky-striker-raye",
+      "displayName": "Sky Striker Raye",
+      "description": "A compact chibi pet inspired by Sky Striker Ace - Raye in YGO (Yu-Gi-Oh!), with white hair, teal eyes, a white-and-brown uniform, and a red-black patterned sword.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/sky-striker-raye-3c922c3895d5/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/sky-striker-raye-3c922c3895d5/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/sky-striker-raye-3c922c3895d5/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "focused",
+        "heroic",
+        "edgy"
+      ],
+      "tags": [
+        "sky-striker",
+        "raye",
+        "white-hair",
+        "teal-eyes",
+        "red-black-sword"
+      ],
+      "colorFamily": "red",
+      "dominantColor": "#a43434",
+      "submittedByName": "anabioticsoul",
+      "approvedAt": "2026-06-04T05:24:57.086Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "nemophila-ring",
+      "displayName": "ヰ世界情緒",
+      "description": "一位安静优雅的蓝色粉蝶花环主题像素小助手，白发、蓝花、金属圆环与蓝色流苏会陪你写代码、等待确认和认真 review。",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/nemophila-ring-f88da9390ad8/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/nemophila-ring-f88da9390ad8/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/nemophila-ring-f88da9390ad8/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "calm",
+        "focused",
+        "mystical"
+      ],
+      "tags": [
+        "white-hair",
+        "blue-flowers",
+        "butterfly-crown",
+        "metal-ring",
+        "code-reviewer"
+      ],
+      "colorFamily": "blue",
+      "dominantColor": "#4785c4",
+      "submittedByName": "YwuN",
+      "approvedAt": "2026-06-04T05:24:55.145Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "bear",
+      "displayName": "Bear",
+      "description": "A faithful pixel-style white bear desktop pet based on a simple hand-drawn reference.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/bear-ff3b3cb0161f/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/bear-ff3b3cb0161f/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/bear-ff3b3cb0161f/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cozy",
+        "wholesome",
+        "calm"
+      ],
+      "tags": [
+        "bear",
+        "white",
+        "pixel",
+        "desktop",
+        "hand-drawn"
+      ],
+      "colorFamily": "green",
+      "dominantColor": "#20de28",
+      "submittedByName": "yunfanzhang0601",
+      "approvedAt": "2026-06-04T05:24:53.943Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "round-puff-pink",
+      "displayName": "Round Puff Pink",
+      "description": "A round soft-pink candy pet with lavender mitten arms, yellow feet, and glossy teal eyes.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/round-puff-pink-1d19cb25af79/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/round-puff-pink-1d19cb25af79/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/round-puff-pink-1d19cb25af79/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cheerful",
+        "cozy",
+        "playful"
+      ],
+      "tags": [
+        "candy",
+        "round",
+        "pink",
+        "lavender-arms",
+        "teal-eyes"
+      ],
+      "colorFamily": "red",
+      "dominantColor": "#cd2128",
+      "submittedByName": "codeontree",
+      "approvedAt": "2026-06-04T05:24:26.099Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "sisi",
+      "displayName": "丝丝",
+      "description": "喜欢互动、花花、小裙子和珍珠宝石项链的像素风英国短毛猫银渐层。",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/sisi-c3ae8373b97f/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/sisi-c3ae8373b97f/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/sisi-c3ae8373b97f/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cozy",
+        "playful",
+        "cheerful"
+      ],
+      "tags": [
+        "british-shorthair",
+        "silver-shaded",
+        "skirt",
+        "pearl-necklace",
+        "floral"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#d7ae5a",
+      "submittedByName": "董 宁.",
+      "approvedAt": "2026-06-04T02:19:39.056Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "cai-chao",
+      "displayName": "cai-chao",
+      "description": "超超的彩色版，彩超。",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/cai-chao-3ea8b4c14d12/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/cai-chao-3ea8b4c14d12/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/cai-chao-3ea8b4c14d12/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cheerful",
+        "playful"
+      ],
+      "tags": [
+        "chao",
+        "colorful",
+        "pastel",
+        "variant"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#e89a12",
+      "submittedByName": "weicheng f.",
+      "approvedAt": "2026-06-03T07:06:43.508Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "loris-codex",
+      "displayName": "Loris",
+      "description": "A cute VPet-style chibi anime girl desktop companion.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/loris-codex-9b2d4a57f43e/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/loris-codex-9b2d4a57f43e/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/loris-codex-9b2d4a57f43e/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "wholesome",
+        "cheerful",
+        "playful"
+      ],
+      "tags": [
+        "chibi",
+        "anime-girl",
+        "desktop-companion",
+        "pixel-art"
+      ],
+      "colorFamily": "teal",
+      "dominantColor": "#6abfb4",
+      "submittedByName": "leeon666",
+      "approvedAt": "2026-06-03T07:06:32.407Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "pilot-duo",
+      "displayName": "Pilot Duo",
+      "description": "A compact two-character Codex pet pair inspired by a quiet pale-haired pilot and a bold long-haired pilot.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/pilot-duo-2faa3a2334b6/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/pilot-duo-2faa3a2334b6/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/pilot-duo-2faa3a2334b6/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "heroic",
+        "calm",
+        "focused"
+      ],
+      "tags": [
+        "pilot",
+        "duo",
+        "pale-haired",
+        "long-haired",
+        "aviation"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#e15605",
+      "submittedByName": "谦 张.",
+      "approvedAt": "2026-06-03T07:06:29.260Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 6,
+        "likeCount": 1,
+        "zipDownloadCount": 1
+      }
+    },
+    {
+      "slug": "omen-kitty-v3",
+      "displayName": "Valorant Omen Kitty",
+      "description": "无畏契约游戏角色幽影的 Q 版小猫宠物。 / A chibi kitty pet inspired by Omen, the shadowy character from VALORANT.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/omen-kitty-v3-d2c3d21eff58/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/omen-kitty-v3-d2c3d21eff58/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/omen-kitty-v3-d2c3d21eff58/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "mystical",
+        "edgy",
+        "mischievous"
+      ],
+      "tags": [
+        "kitty",
+        "omen",
+        "valorant",
+        "shadow",
+        "chibi"
+      ],
+      "colorFamily": "indigo",
+      "dominantColor": "#7252be",
+      "submittedByName": "joy-reverie",
+      "approvedAt": "2026-06-03T07:06:27.742Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 3,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "shellpop-snail",
+      "displayName": "Shellpop Snail",
+      "description": "An original mint sea-snail Codex desktop pet with a lavender spiral shell, soft antennae, navy eyes, and a cheerful face.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/shellpop-snail-6dff5bfea263/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/shellpop-snail-6dff5bfea263/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/shellpop-snail-6dff5bfea263/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cheerful",
+        "wholesome",
+        "calm"
+      ],
+      "tags": [
+        "sea-snail",
+        "mint",
+        "lavender-shell",
+        "soft-antennae",
+        "navy-eyes"
+      ],
+      "colorFamily": "purple",
+      "dominantColor": "#b68cce",
+      "submittedByName": "sherly-li",
+      "approvedAt": "2026-06-03T07:06:26.985Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "denia",
+      "displayName": "Denia",
+      "description": "A cheerful pink-and-blue pixel idol pet based on the supplied Denia reference, with both eyes visible and an idle wink animation.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/denia-289110f747ca/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/denia-289110f747ca/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/denia-289110f747ca/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "cheerful",
+        "playful",
+        "wholesome"
+      ],
+      "tags": [
+        "denia",
+        "idol",
+        "pink-and-blue",
+        "idle-wink",
+        "both-eyes-visible"
+      ],
+      "colorFamily": "pink",
+      "dominantColor": "#c64989",
+      "submittedByName": "p60966253-hue",
+      "approvedAt": "2026-06-03T07:06:25.077Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "wang-lin-wending-pixel",
+      "displayName": "问鼎王林",
+      "description": "Q版像素仙侠桌面宠物：银白高马尾、银质龙角发冠、蓝白月白长袍、浅金云纹、清冷问鼎强者气质。",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/wang-lin-wending-pixel-6f4ff94cf924/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/wang-lin-wending-pixel-6f4ff94cf924/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/wang-lin-wending-pixel-6f4ff94cf924/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "mystical",
+        "calm",
+        "heroic"
+      ],
+      "tags": [
+        "xianxia",
+        "silver-white",
+        "dragon-horn-crown",
+        "blue-white-robes",
+        "gold-cloud-pattern"
+      ],
+      "colorFamily": "green",
+      "dominantColor": "#54c474",
+      "submittedByName": "15821914639",
+      "approvedAt": "2026-06-03T07:06:24.028Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "auri",
+      "displayName": "Auri",
+      "description": "A compact animated pet of a golden-haired blue-eyed girl with a friendly Codex companion presence.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/auri-009696c8a47d/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/auri-009696c8a47d/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/auri-009696c8a47d/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "wholesome",
+        "cheerful",
+        "mystical"
+      ],
+      "tags": [
+        "human",
+        "golden-hair",
+        "blue-eyes",
+        "codex-companion",
+        "assistant"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#f8c959",
+      "submittedByName": "yuanlitongzai",
+      "approvedAt": "2026-06-03T07:06:21.149Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 3,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "tsumu-hi-4",
+      "displayName": "Tsumu Hi 4",
+      "description": "A calm, stable purple spirit horse mascot with blue-violet mane, gold linework, gemstone accents, and a grounded protective presence.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/tsumu-hi-4-ebff2b38b62e/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/tsumu-hi-4-ebff2b38b62e/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/tsumu-hi-4-ebff2b38b62e/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "calm",
+        "mystical",
+        "wholesome"
+      ],
+      "tags": [
+        "spirit-horse",
+        "purple",
+        "blue-violet-mane",
+        "gold-linework",
+        "gemstone-accents"
+      ],
+      "colorFamily": "blue",
+      "dominantColor": "#455bae",
+      "submittedByName": "jj20375",
+      "approvedAt": "2026-06-03T07:06:20.113Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 3,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "super-saiyan-vegeta",
+      "displayName": "超级赛亚人贝吉塔",
+      "description": "A compact Codex digital pet inspired by Super Saiyan Vegeta: spiky golden hair, stern teal eyes, navy bodysuit, white gloves and boots, and simplified white-and-gold armor.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/super-saiyan-vegeta-c7d20f7771da/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/super-saiyan-vegeta-c7d20f7771da/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/super-saiyan-vegeta-c7d20f7771da/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "heroic",
+        "edgy",
+        "focused"
+      ],
+      "tags": [
+        "vegeta",
+        "super-saiyan",
+        "spiky-hair",
+        "navy-bodysuit",
+        "white-and-gold-armor"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#fac134",
+      "submittedByName": "alienallen",
+      "approvedAt": "2026-06-03T07:06:17.303Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 3,
+        "likeCount": 1,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "dino-box",
+      "displayName": "恐龙噜噜",
+      "description": "恐龙装扮的噜噜",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/dino-box-b6db5ac1e640/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/dino-box-b6db5ac1e640/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/dino-box-b6db5ac1e640/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "playful",
+        "cheerful",
+        "wholesome"
+      ],
+      "tags": [
+        "dinosaur-costume",
+        "lulu",
+        "cute",
+        "chibi"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#f7b00d",
+      "submittedByName": "小艺 粥.",
+      "approvedAt": "2026-06-03T07:06:16.213Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 9,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "super-saiyan-goku",
+      "displayName": "超级赛亚人孙悟空",
+      "description": "A compact Codex digital pet inspired by a Super Saiyan martial artist with golden spiky hair, teal eyes, orange gi, and blue accessories.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/super-saiyan-goku-d96225090fcf/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/super-saiyan-goku-d96225090fcf/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/super-saiyan-goku-d96225090fcf/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "heroic",
+        "focused",
+        "playful"
+      ],
+      "tags": [
+        "super-saiyan",
+        "sun-wukong",
+        "orange-gi",
+        "golden-hair",
+        "teal-eyes"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#f19107",
+      "submittedByName": "alienallen",
+      "approvedAt": "2026-06-03T07:06:10.067Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 7,
+        "likeCount": 2,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "majin-buu",
+      "displayName": "魔人布欧",
+      "description": "A compact pink chibi battle companion with a head tendril, black-and-gold wrist cuffs, white puffy pants, green boots, and mischievous energy.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/majin-buu-fe4c84804242/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/majin-buu-fe4c84804242/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/majin-buu-fe4c84804242/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "mischievous",
+        "playful",
+        "chaotic"
+      ],
+      "tags": [
+        "majin-buu",
+        "pink",
+        "head-tendril",
+        "puffy-pants",
+        "wrist-cuffs"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#ce9d2b",
+      "submittedByName": "alienallen",
+      "approvedAt": "2026-06-03T07:06:08.600Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 0,
+        "likeCount": 1,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "camellia",
+      "displayName": "Camellia",
+      "description": "A fluffy white Maltese-style dog wearing a blue striped shirt and denim overalls.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/camellia-7868a3ebd91e/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/camellia-7868a3ebd91e/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/camellia-7868a3ebd91e/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cheerful",
+        "cozy",
+        "playful"
+      ],
+      "tags": [
+        "maltese",
+        "fluffy",
+        "white",
+        "blue-striped-shirt",
+        "denim-overalls"
+      ],
+      "colorFamily": "purple",
+      "dominantColor": "#c419b6",
+      "submittedByName": "elviraelvair-rgb",
+      "approvedAt": "2026-06-03T07:06:05.760Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 0,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "normi",
+      "displayName": "Normi",
+      "description": "A soft white pom pet with glossy dark eyes, cozy attentiveness, and a gentle helpful personality.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/normi-f6eede24c788/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/normi-f6eede24c788/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/normi-f6eede24c788/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cozy",
+        "wholesome",
+        "calm"
+      ],
+      "tags": [
+        "pomeranian",
+        "white",
+        "glossy-eyes",
+        "attentive",
+        "helper"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#ae8b50",
+      "submittedByName": "elviraelvair-rgb",
+      "approvedAt": "2026-06-03T07:06:02.881Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "niuniu",
+      "displayName": "牛牛",
+      "description": "牛牛是一只圆润的黑白奶牛 Codex 宠物，保留三视图里的3D玩具插画风格、严肃眉眼、粉色鼻口和黑白斑纹。.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/niuniu-1a0381e79b8c/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/niuniu-1a0381e79b8c/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/niuniu-1a0381e79b8c/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "wholesome",
+        "calm",
+        "cozy"
+      ],
+      "tags": [
+        "cow",
+        "black-and-white",
+        "pink-muzzle",
+        "stern-brows",
+        "3d-toy-illustration"
+      ],
+      "colorFamily": "brown",
+      "dominantColor": "#d8a088",
+      "submittedByName": "小艺 粥.",
+      "approvedAt": "2026-06-03T07:06:01.234Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 0,
+        "likeCount": 0,
+        "zipDownloadCount": 1
+      }
+    },
+    {
+      "slug": "o-4",
+      "displayName": "Little O",
+      "description": "Lively, professional, and attentive",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/o-95babb64288c/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/o-95babb64288c/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/o-95babb64288c/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "playful",
+        "focused",
+        "wholesome"
+      ],
+      "tags": [
+        "assistant",
+        "office",
+        "attentive",
+        "professional",
+        "letter-o"
+      ],
+      "colorFamily": "blue",
+      "dominantColor": "#04b4fc",
+      "submittedByName": "文正 冼.",
+      "approvedAt": "2026-06-03T07:05:55.660Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "codex-panda",
+      "displayName": "codex-panda",
+      "description": "A tiny Codex panda pet holding bamboo, simplified from the provided panda reference.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/codex-panda-1e1e3a279e89/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/codex-panda-1e1e3a279e89/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/codex-panda-1e1e3a279e89/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cozy",
+        "wholesome"
+      ],
+      "tags": [
+        "panda",
+        "bamboo",
+        "black-and-white"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#b47431",
+      "submittedByName": "puff991121",
+      "approvedAt": "2026-06-03T07:05:32.472Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 5,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "windbell",
+      "displayName": "Little WindBell",
+      "description": "A tiny porcelain wind bell companion with blue trim, gold hardware, red tassels, and cherry blossom details.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/windbell-05cb32a976ea/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/windbell-05cb32a976ea/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/windbell-05cb32a976ea/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "calm",
+        "mystical",
+        "wholesome"
+      ],
+      "tags": [
+        "wind-bell",
+        "porcelain",
+        "gold-hardware",
+        "red-tassels",
+        "cherry-blossom"
+      ],
+      "colorFamily": "red",
+      "dominantColor": "#d52315",
+      "submittedByName": "mr7ish",
+      "approvedAt": "2026-06-03T07:05:31.771Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 5,
+        "likeCount": 1,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "nox",
+      "displayName": "Nox",
+      "description": "A calm, slightly sleepy anime-chibi AI researcher and roboticist companion who codes late at night.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/nox-9e4759663651/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/nox-9e4759663651/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/nox-9e4759663651/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "calm",
+        "focused",
+        "cozy"
+      ],
+      "tags": [
+        "ai-researcher",
+        "roboticist",
+        "chibi",
+        "late-night",
+        "sleepy"
+      ],
+      "colorFamily": "pink",
+      "dominantColor": "#ac4292",
+      "submittedByName": "wicc221",
+      "approvedAt": "2026-06-03T07:05:29.274Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 4,
+        "likeCount": 1,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "naiju",
+      "displayName": "奶橘",
+      "description": "A tiny orange-and-white loaf cat desktop pet with a white chest ruff, tucked paws, and calm blinking animations.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/naiju-e2d209c119e4/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/naiju-e2d209c119e4/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/naiju-e2d209c119e4/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "calm",
+        "cozy",
+        "wholesome"
+      ],
+      "tags": [
+        "cat",
+        "orange-and-white",
+        "loaf",
+        "desktop",
+        "tucked-paws"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#fbac31",
+      "submittedByName": "jyz-xidaduo",
+      "approvedAt": "2026-06-03T07:05:27.505Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 3,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "kai",
+      "displayName": "Kai",
+      "description": "A blue Kai-themed Codex pet: a cheerful little boy without glasses, dark navy hair, blue-white tech hoodie, loyal companion energy.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/kai-f72aa5d3503f/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/kai-f72aa5d3503f/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/kai-f72aa5d3503f/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "cheerful",
+        "wholesome",
+        "playful"
+      ],
+      "tags": [
+        "kai",
+        "boy",
+        "navy-hair",
+        "blue-tech-hoodie"
+      ],
+      "colorFamily": "blue",
+      "dominantColor": "#186dd1",
+      "submittedByName": "kaiii-create",
+      "approvedAt": "2026-06-03T07:05:25.911Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 0,
+        "likeCount": 1,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "shizuku-pixel",
+      "displayName": "小滴",
+      "description": "A chunky pixel chibi Codex pet inspired by Shizuku: oversized head, short black bob hair, round glasses, black turtleneck, gold necklace, jeans, and a small spider-8 belly mark.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/shizuku-pixel-a48ad6e2ffd1/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/shizuku-pixel-a48ad6e2ffd1/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/shizuku-pixel-a48ad6e2ffd1/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "calm",
+        "edgy",
+        "wholesome"
+      ],
+      "tags": [
+        "chibi",
+        "round-glasses",
+        "black-bob",
+        "black-turtleneck",
+        "spider-belly"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#a38343",
+      "submittedByName": "bdk-star",
+      "approvedAt": "2026-06-03T07:05:24.624Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "qbao",
+      "displayName": "QBao",
+      "description": "A tiny yellow electric mouse-style Codex companion with cheek sparks and a lightning-bolt tail.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/qbao-c4bc2e852555/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/qbao-c4bc2e852555/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/qbao-c4bc2e852555/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "playful",
+        "mischievous",
+        "cheerful"
+      ],
+      "tags": [
+        "mouse",
+        "electric",
+        "yellow",
+        "lightning-bolt-tail",
+        "cheek-sparks"
+      ],
+      "colorFamily": "yellow",
+      "dominantColor": "#fce404",
+      "submittedByName": "feiyu z.",
+      "approvedAt": "2026-06-03T07:05:22.939Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 9,
+        "likeCount": 1,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "tsumu",
+      "displayName": "Tsumu",
+      "description": "A dreamy lavender crystal horse pet with a flowing sky-blue mane and a gentle meadow-spirit feel.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/tsumu-be56382fbe77/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/tsumu-be56382fbe77/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/tsumu-be56382fbe77/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "mystical",
+        "calm",
+        "wholesome"
+      ],
+      "tags": [
+        "horse",
+        "lavender",
+        "crystal",
+        "sky-blue-mane",
+        "meadow-spirit"
+      ],
+      "colorFamily": "blue",
+      "dominantColor": "#7788c4",
+      "submittedByName": "jj20375",
+      "approvedAt": "2026-06-03T07:05:06.347Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "perper",
+      "displayName": "perper",
+      "description": "咪叫perper，咪喜欢花，喜欢红色，喜欢火星人，咪是世界上最好的小猫，这是咪的Per古拉伯爵形态，可以让咪陪陪你吗～",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/perper-113ab2b77120/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/perper-113ab2b77120/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/perper-113ab2b77120/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cozy",
+        "playful",
+        "cheerful"
+      ],
+      "tags": [
+        "perper",
+        "kitten",
+        "red",
+        "flower-lover",
+        "martian-fan"
+      ],
+      "colorFamily": "red",
+      "dominantColor": "#d70e05",
+      "submittedByName": "wu N.",
+      "approvedAt": "2026-06-03T07:05:03.991Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 12,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "lulubike",
+      "displayName": "骑车噜噜",
+      "description": "A soft 3D toy-style Lulu pet riding a cute bicycle, based on the provided three-view reference.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/lulubike-9dc009c73b3d/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/lulubike-9dc009c73b3d/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/lulubike-9dc009c73b3d/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "cozy",
+        "playful",
+        "cheerful"
+      ],
+      "tags": [
+        "lulu",
+        "bike",
+        "soft-toy",
+        "3d"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#f38a09",
+      "submittedByName": "小艺 粥.",
+      "approvedAt": "2026-06-03T07:05:03.193Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "little-candy-puppy",
+      "displayName": "小奶糖",
+      "description": "可爱的小狗，圆眼睛，软乎乎短毛，小尾巴，友好表情.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/little-candy-puppy-6331d6ed873a/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/little-candy-puppy-6331d6ed873a/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/little-candy-puppy-6331d6ed873a/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cozy",
+        "cheerful",
+        "playful"
+      ],
+      "tags": [
+        "dog",
+        "round-eyes",
+        "short-fur",
+        "friendly"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#c8812d",
+      "submittedByName": "ldddddd",
+      "approvedAt": "2026-06-03T07:05:00.981Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "tenshi-kanade",
+      "displayName": "Tenshi Kanade",
+      "description": "An anime-style chibi desktop pet inspired by Kanade Tachibana from Angel Beats!, retaining her long silver-purple hair, light beige school uniform, dark pleated skirt, and white wings.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/tenshi-kanade-918baa1df62b/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/tenshi-kanade-918baa1df62b/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/tenshi-kanade-918baa1df62b/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "calm",
+        "mystical",
+        "melancholic"
+      ],
+      "tags": [
+        "kanade-tachibana",
+        "angel-beats",
+        "angel",
+        "silver-purple-hair",
+        "school-uniform"
+      ],
+      "colorFamily": "green",
+      "dominantColor": "#3b814b",
+      "submittedByName": "anabioticsoul",
+      "approvedAt": "2026-06-03T07:04:59.000Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "silverhand",
+      "displayName": "Silverhand",
+      "description": "Cyberpunk mercenary pet with a silver cybernetic arm.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/silverhand-2599db5f3865/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/silverhand-2599db5f3865/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/silverhand-2599db5f3865/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "edgy",
+        "focused",
+        "mischievous"
+      ],
+      "tags": [
+        "cyberpunk",
+        "mercenary",
+        "cybernetic-arm",
+        "cyborg",
+        "silverhand"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#c86936",
+      "submittedByName": "Иван К.",
+      "approvedAt": "2026-06-03T07:04:55.231Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "david-chao-duo",
+      "displayName": "牛经理与超超",
+      "description": "相亲相爱一家人",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/david-chao-duo-1dc49f7e3e3b/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/david-chao-duo-1dc49f7e3e3b/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/david-chao-duo-1dc49f7e3e3b/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "wholesome",
+        "cozy",
+        "cheerful"
+      ],
+      "tags": [
+        "cow-manager",
+        "companion",
+        "family",
+        "parent-child"
+      ],
+      "colorFamily": "red",
+      "dominantColor": "#b43c27",
+      "submittedByName": "weicheng f.",
+      "approvedAt": "2026-06-03T07:04:53.811Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 0,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "huahua",
+      "displayName": "Huahua",
+      "description": "A tiny 3D flower cat companion for Codex, cute, gentle, and full of love.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/huahua-397204866d23/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/huahua-397204866d23/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/huahua-397204866d23/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "wholesome",
+        "cozy",
+        "cheerful"
+      ],
+      "tags": [
+        "flower-cat",
+        "3d",
+        "tiny",
+        "floral",
+        "gentle"
+      ],
+      "colorFamily": "red",
+      "dominantColor": "#c55244",
+      "submittedByName": "shuaige Y.",
+      "approvedAt": "2026-06-03T07:04:51.831Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "shirobyte",
+      "displayName": "Shirobyte",
+      "description": "A small silver guardian fox companion for Codex, calm, elegant, and focused.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/shirobyte-dead1fc7f0fc/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/shirobyte-dead1fc7f0fc/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/shirobyte-dead1fc7f0fc/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "calm",
+        "focused",
+        "mystical"
+      ],
+      "tags": [
+        "fox",
+        "guardian",
+        "silver",
+        "elegant"
+      ],
+      "colorFamily": "red",
+      "dominantColor": "#d5907f",
+      "submittedByName": "shuaige Y.",
+      "approvedAt": "2026-06-03T07:04:49.904Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "sunny-cap",
+      "displayName": "Sunny Cap",
+      "description": "A cheerful compact mascot inspired by the reference, wearing a bright yellow shirt, backward red cap, round glasses, and a red chest badge.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/sunny-cap-da1c8ed7ec32/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/sunny-cap-da1c8ed7ec32/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/sunny-cap-da1c8ed7ec32/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "cheerful",
+        "playful",
+        "wholesome"
+      ],
+      "tags": [
+        "mascot",
+        "yellow-shirt",
+        "red-cap",
+        "round-glasses",
+        "chest-badge"
+      ],
+      "colorFamily": "yellow",
+      "dominantColor": "#fcca04",
+      "submittedByName": "jump",
+      "approvedAt": "2026-06-03T07:04:47.966Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 3,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "orange-hippo",
+      "displayName": "噜噜",
+      "description": "水豚噜噜桌宠",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/orange-hippo-e225448ea889/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/orange-hippo-e225448ea889/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/orange-hippo-e225448ea889/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cozy",
+        "calm",
+        "wholesome"
+      ],
+      "tags": [
+        "capybara",
+        "lulu",
+        "desk-companion",
+        "brown"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#fa9f0a",
+      "submittedByName": "1187522833",
+      "approvedAt": "2026-06-03T07:04:44.969Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 16,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "lulu-7",
+      "displayName": "Lulu｜挎包噜噜",
+      "description": "A soft non-pixel 3D toy desktop pet based on Lulu, a round yellow mascot with orange cheek/muzzle, orange shorts, tiny orange fruit on the head, and a green crossbody pouch strap.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/lulu-20bfcb1ed9cb/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/lulu-20bfcb1ed9cb/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/lulu-20bfcb1ed9cb/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "cheerful",
+        "playful",
+        "wholesome"
+      ],
+      "tags": [
+        "lulu",
+        "mascot",
+        "yellow",
+        "orange-cheeks",
+        "crossbody-pouch"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#f8871b",
+      "submittedByName": "小艺 粥.",
+      "approvedAt": "2026-06-03T07:04:43.459Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 4,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "workwork",
+      "displayName": "Workwork",
+      "description": "Original green RTS-style worker pet with an idle \"Ready to work!\" speech bubble, tusks, tool, and sturdy laborer charm.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/workwork-e4660d1f53fe/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/workwork-e4660d1f53fe/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/workwork-e4660d1f53fe/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "focused",
+        "wholesome",
+        "cheerful"
+      ],
+      "tags": [
+        "green",
+        "worker",
+        "tusks",
+        "tool",
+        "rts"
+      ],
+      "colorFamily": "yellow",
+      "dominantColor": "#939227",
+      "submittedByName": "tracy p.",
+      "approvedAt": "2026-06-03T07:04:41.211Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "omen",
+      "displayName": "Omen",
+      "description": "A compact shadow-cloak pet inspired by Omen from Valorant, with a mysterious hooded silhouette and teal spectral face slits.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/omen-f4de02c4ab58/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/omen-f4de02c4ab58/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/omen-f4de02c4ab58/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "mystical",
+        "edgy",
+        "melancholic"
+      ],
+      "tags": [
+        "shadow-cloak",
+        "hooded",
+        "teal-slits",
+        "omen"
+      ],
+      "colorFamily": "teal",
+      "dominantColor": "#0abdc1",
+      "submittedByName": "a1982418039",
+      "approvedAt": "2026-06-03T07:04:40.297Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 3,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "caine",
+      "displayName": "Caine",
+      "description": "A compact animated Codex pet inspired by a theatrical denture-headed ringmaster with mismatched eyes, a black top hat, red tuxedo tails, white gloves, black trousers, and a slim black cane with a gold knob.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/caine-bd88bce39564/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/caine-bd88bce39564/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/caine-bd88bce39564/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "mischievous",
+        "edgy",
+        "chaotic"
+      ],
+      "tags": [
+        "ringmaster",
+        "denture-head",
+        "mismatched-eyes",
+        "top-hat",
+        "cane"
+      ],
+      "colorFamily": "red",
+      "dominantColor": "#bf161e",
+      "submittedByName": "r1900cynnnnnnn",
+      "approvedAt": "2026-06-03T07:04:33.641Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 0,
+        "likeCount": 1,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "holly",
+      "displayName": "Holly",
+      "description": "This is Holly, your ideal companion. Let Holly accompany you as you get your work done.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/holly-8f2e89451baa/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/holly-8f2e89451baa/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/holly-8f2e89451baa/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "focused",
+        "wholesome",
+        "calm"
+      ],
+      "tags": [
+        "assistant",
+        "work-buddy",
+        "desk",
+        "holly"
+      ],
+      "colorFamily": "brown",
+      "dominantColor": "#996545",
+      "submittedByName": "waker-visual",
+      "approvedAt": "2026-06-03T07:04:31.115Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 0,
+        "likeCount": 1,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "diffy-cat",
+      "displayName": "diffy cat",
+      "description": "A pixel-art American shorthair desktop pet with silver-black tabby markings, round curious face, playful proud personality, and a butterfly best friend.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/diffy-cat-9a6d53e0e03c/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/diffy-cat-9a6d53e0e03c/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/diffy-cat-9a6d53e0e03c/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "playful",
+        "cheerful",
+        "wholesome"
+      ],
+      "tags": [
+        "american-shorthair",
+        "silver-black-tabby",
+        "butterfly-friend",
+        "round-face"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#e19116",
+      "submittedByName": "董 宁.",
+      "approvedAt": "2026-06-03T07:04:29.381Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "jiwawa",
+      "displayName": "Jiwawa/吉娃娃",
+      "description": "Desktop Planter Series - Jiwawa is a pink Echeveria chihuahuaensis pot pet that opens and closes its rosette while hopping softly on your desk. 桌面盆栽系列 - 吉娃娃，一只粉色莲座多肉盆栽小宠，会轻轻跳跃，也会用叶片开合回应你。",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/jiwawa-048e014b1e16/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/jiwawa-048e014b1e16/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/jiwawa-048e014b1e16/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "playful",
+        "cheerful",
+        "wholesome"
+      ],
+      "tags": [
+        "echeveria",
+        "chihuahua",
+        "desktop-planter",
+        "rosette",
+        "pink"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#dc4b11",
+      "submittedByName": "Siugurd",
+      "approvedAt": "2026-06-03T07:04:28.686Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 2,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "lancelot",
+      "displayName": "Lancelot",
+      "description": "A soft cute sticker-style chibi dragon girl pet based on Lancelot, with silver-white hair, long twin horns, a cyan forehead gem, bat-like wings, and a curled dragon tail.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/lancelot-cf248f3f9b1d/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/lancelot-cf248f3f9b1d/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/lancelot-cf248f3f9b1d/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "wholesome",
+        "playful",
+        "mystical"
+      ],
+      "tags": [
+        "dragon-girl",
+        "chibi",
+        "sticker",
+        "silver-white-hair",
+        "cyan-forehead-gem"
+      ],
+      "colorFamily": "teal",
+      "dominantColor": "#79cfc6",
+      "submittedByName": "文昊",
+      "approvedAt": "2026-06-03T07:04:26.495Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "gengarcat",
+      "displayName": "GengarCat",
+      "description": "A cute full-body purple kitten pet with large red eyes, inspired by the provided crouching cat reference.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/gengarcat-b38fef4cb1c5/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/gengarcat-b38fef4cb1c5/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/gengarcat-b38fef4cb1c5/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "mischievous",
+        "mystical",
+        "playful"
+      ],
+      "tags": [
+        "kitten",
+        "purple",
+        "red-eyes",
+        "crouching",
+        "gengar-inspired"
+      ],
+      "colorFamily": "red",
+      "dominantColor": "#e56c69",
+      "submittedByName": "FANQIE D.",
+      "approvedAt": "2026-06-03T07:04:24.301Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "glass-bead-rail",
+      "displayName": "Glass Bead Rail",
+      "description": "A compact rail holding one cloudy glass bead in a shallow channel.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/glass-bead-rail-d30df1e4c1f7/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/glass-bead-rail-d30df1e4c1f7/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/glass-bead-rail-d30df1e4c1f7/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "calm",
+        "mystical",
+        "wholesome"
+      ],
+      "tags": [
+        "glass-bead",
+        "rail",
+        "shallow-channel",
+        "cloudy",
+        "compact"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#bc9c64",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-06-03T07:04:19.309Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 3,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "ceramic-tab-rest",
+      "displayName": "Ceramic Tab Rest",
+      "description": "A small ceramic tab rest with a smooth groove and pale worn edges.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/ceramic-tab-rest-8984224e7f1b/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/ceramic-tab-rest-8984224e7f1b/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/ceramic-tab-rest-8984224e7f1b/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "calm",
+        "wholesome"
+      ],
+      "tags": [
+        "ceramic",
+        "tab-rest",
+        "smooth-groove",
+        "pale-worn-edges",
+        "desk-accessory"
+      ],
+      "colorFamily": "brown",
+      "dominantColor": "#caac84",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-06-03T07:04:16.794Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "cedar-catalog-block",
+      "displayName": "Cedar Catalog Block",
+      "description": "A small cedar catalog block with a smooth front face and warm grain.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/cedar-catalog-block-b3f4d8ff5f81/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/cedar-catalog-block-b3f4d8ff5f81/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/cedar-catalog-block-b3f4d8ff5f81/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "cozy",
+        "calm",
+        "wholesome"
+      ],
+      "tags": [
+        "cedar",
+        "wood-block",
+        "catalog",
+        "smooth-face",
+        "warm-grain"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#ce7424",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-06-03T07:04:15.756Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "copper-label-frame",
+      "displayName": "Copper Label Frame",
+      "description": "A compact copper label frame with an empty inset and rounded corner rivets.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/copper-label-frame-f7923480a2cf/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/copper-label-frame-f7923480a2cf/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/copper-label-frame-f7923480a2cf/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "calm",
+        "focused",
+        "wholesome"
+      ],
+      "tags": [
+        "copper",
+        "label-frame",
+        "rounded-rivets",
+        "empty-inset",
+        "vintage"
+      ],
+      "colorFamily": "yellow",
+      "dominantColor": "#cec304",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-06-03T07:04:13.745Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "amber-bead-gauge",
+      "displayName": "Amber Bead Gauge",
+      "description": "A small amber bead gauge with one rounded bead and a smooth metal cradle.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/amber-bead-gauge-27c57e411e52/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/amber-bead-gauge-27c57e411e52/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/amber-bead-gauge-27c57e411e52/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "calm",
+        "focused",
+        "wholesome"
+      ],
+      "tags": [
+        "amber",
+        "bead-gauge",
+        "metal-cradle",
+        "rounded-bead",
+        "handheld"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#f9aa0f",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-06-03T07:04:10.129Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 0,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "chipped-card-stand",
+      "displayName": "Chipped Card Stand",
+      "description": "A compact ceramic card stand with a clean support groove and chipped edge details.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/chipped-card-stand-dd27409ed50d/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/chipped-card-stand-dd27409ed50d/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/chipped-card-stand-dd27409ed50d/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "calm",
+        "wholesome",
+        "focused"
+      ],
+      "tags": [
+        "ceramic",
+        "card-stand",
+        "chipped-edge",
+        "support-groove",
+        "desk-accessory"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#e3b77c",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-06-03T07:04:10.022Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "brass-stencil-gate",
+      "displayName": "Brass Stencil Gate",
+      "description": "A compact brass stencil gate with a clean aperture and worn edge details.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/brass-stencil-gate-1b3307936b76/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/brass-stencil-gate-1b3307936b76/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/brass-stencil-gate-1b3307936b76/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "calm",
+        "focused"
+      ],
+      "tags": [
+        "brass",
+        "stencil-gate",
+        "aperture",
+        "worn-edges"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#c48622",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-06-03T07:04:08.765Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "blank-address-plate",
+      "displayName": "Blank Address Plate",
+      "description": "A compact enamel address plate with two capped fasteners and clean worn edges.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/blank-address-plate-5da26474cebf/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/blank-address-plate-5da26474cebf/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/blank-address-plate-5da26474cebf/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "calm",
+        "melancholic"
+      ],
+      "tags": [
+        "enamel",
+        "address-plate",
+        "capped-fasteners",
+        "worn-edges"
+      ],
+      "colorFamily": "blue",
+      "dominantColor": "#6290b4",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-06-03T07:04:06.078Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "small-carbon-spacer",
+      "displayName": "Small Carbon Spacer",
+      "description": "A compact dark spacer block with one polished notch and clean tray-part details.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/small-carbon-spacer-85beafac281e/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/small-carbon-spacer-85beafac281e/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/small-carbon-spacer-85beafac281e/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "focused",
+        "calm",
+        "edgy"
+      ],
+      "tags": [
+        "spacer",
+        "carbon",
+        "dark",
+        "notch",
+        "tray-part"
+      ],
+      "colorFamily": "purple",
+      "dominantColor": "#f608f0",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-06-03T07:04:05.476Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "truthbee",
+      "displayName": "哈基蜂",
+      "description": "哈基蜂：a calm cute bee-hamster helper with a headset, black harness, translucent wings, and a careful truth-first expression.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/truthbee-271a334e2b76/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/truthbee-271a334e2b76/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/truthbee-271a334e2b76/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "calm",
+        "focused",
+        "wholesome"
+      ],
+      "tags": [
+        "bee-hamster",
+        "headset",
+        "black-harness",
+        "translucent-wings",
+        "truthful"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#eaa241",
+      "submittedByName": "hhh g.",
+      "approvedAt": "2026-06-03T07:04:02.253Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "luffy-3",
+      "displayName": "Luffy",
+      "description": "A compact post-episode-1000 pirate hero pet inspired by Monkey D. Luffy, with a straw hat, red open jacket, shorts, sash, sandals, black hair, and a playful determined expression.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/luffy-add769b0a7f9/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/luffy-add769b0a7f9/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/luffy-add769b0a7f9/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "playful",
+        "heroic",
+        "mischievous"
+      ],
+      "tags": [
+        "straw-hat",
+        "monkey-d-luffy",
+        "red-jacket",
+        "sash",
+        "sandals"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#fbc72c",
+      "submittedByName": "jiexiaohua",
+      "approvedAt": "2026-06-03T07:04:01.392Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "lucy-2",
+      "displayName": "露西",
+      "description": "露西是一个卡通像素风赛博少女宠物，默认穿原本赛博服；月球漫步动作会换成白色未来宇航服并带头盔地球反光，04 动作为抬头看月亮。",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/lucy-a41fa66304dd/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/lucy-a41fa66304dd/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/lucy-a41fa66304dd/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "edgy",
+        "mystical",
+        "playful"
+      ],
+      "tags": [
+        "cyber-girl",
+        "pixel-art",
+        "moonwalk",
+        "white-spacesuit",
+        "reflective-helmet"
+      ],
+      "colorFamily": "purple",
+      "dominantColor": "#8941b9",
+      "submittedByName": "忠良 齐.",
+      "approvedAt": "2026-06-03T07:03:58.741Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 0,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "yuwan",
+      "displayName": "鱼丸",
+      "description": "鱼丸是一只小巧灵动的橘猫 Codex 宠物，带着好奇、专注、陪你处理代码与项目细节的气质。.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/yuwan-9a042ea3fa68/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/yuwan-9a042ea3fa68/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/yuwan-9a042ea3fa68/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "focused",
+        "playful"
+      ],
+      "tags": [
+        "orange-cat",
+        "code-helper",
+        "curious"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#f1870b",
+      "submittedByName": "vurtnec",
+      "approvedAt": "2026-06-03T07:03:18.434Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 1,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "chen-qianyu",
+      "displayName": "陈千语",
+      "description": "A chibi Codex pet based on Endfield character Chen Qianyu, with drooping downturned eyes that have no highlight, long twin tails, and a drained adorable expression.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/chen-qianyu-0e90ade038bc/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/chen-qianyu-0e90ade038bc/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/chen-qianyu-0e90ade038bc/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "melancholic",
+        "calm"
+      ],
+      "tags": [
+        "chen-qianyu",
+        "endfield",
+        "chibi",
+        "twin-tails",
+        "downturned-eyes"
+      ],
+      "colorFamily": "pink",
+      "dominantColor": "#b92b64",
+      "submittedByName": "ZIHAN L.",
+      "approvedAt": "2026-06-03T07:03:16.941Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 1,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "jia",
+      "displayName": "jia",
+      "description": "Korean instatoon Jia Codex pet with a big head, tiny body, blue cardigan, white shirt, and dark pants.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/jia-1dd6d0f02867/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/jia-1dd6d0f02867/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/jia-1dd6d0f02867/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "cheerful",
+        "cozy",
+        "wholesome"
+      ],
+      "tags": [
+        "jia",
+        "korean",
+        "instatoon",
+        "big-head",
+        "blue-cardigan"
+      ],
+      "colorFamily": "blue",
+      "dominantColor": "#649cdc",
+      "submittedByName": "1729175",
+      "approvedAt": "2026-06-03T07:03:15.009Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "xiaoyesi",
+      "displayName": "小野寺",
+      "description": "xiaoyesi codex desktop pet with 9 animation states.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/xiaoyesi-334aac096d18/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/xiaoyesi-334aac096d18/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/xiaoyesi-334aac096d18/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "cozy",
+        "calm",
+        "wholesome"
+      ],
+      "tags": [
+        "xiaoyesi",
+        "desktop",
+        "nine-states"
+      ],
+      "colorFamily": "blue",
+      "dominantColor": "#0b98eb",
+      "submittedByName": "sdhihgu",
+      "approvedAt": "2026-06-03T07:03:13.306Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 1,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "ruddy-somali-image2",
+      "displayName": "Ruddy Somali",
+      "description": "Image 2 generated Petdex sprite pack for a ruddy Somali cat with warm red-brown ticked fur, long plume tail, and yellow-green eyes.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/ruddy-somali-image2-00d6e471bd7b/sprite.png",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/ruddy-somali-image2-00d6e471bd7b/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/ruddy-somali-image2-00d6e471bd7b/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cozy",
+        "playful"
+      ],
+      "tags": [
+        "somali",
+        "ruddy",
+        "ticked-fur",
+        "plume-tail",
+        "yellow-green-eyes"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#c5881e",
+      "submittedByName": "iriszyq",
+      "approvedAt": "2026-06-03T06:56:38.354Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 0,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "doubao-4",
+      "displayName": "豆包",
+      "description": "豆包形象的 3D 玩具风格 Codex 宠物，黑色短袖、米白长裤、白鞋、棕色短发，等待和工作中会玩手机。",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/doubao-ba163d674992/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/doubao-ba163d674992/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/doubao-ba163d674992/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "calm",
+        "playful",
+        "wholesome"
+      ],
+      "tags": [
+        "bean-bun",
+        "black-shirt",
+        "off-white-pants",
+        "brown-hair",
+        "phone"
+      ],
+      "colorFamily": "brown",
+      "dominantColor": "#98643c",
+      "submittedByName": "小艺 粥.",
+      "approvedAt": "2026-06-03T03:13:06.141Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 11,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "short-tail-tabby",
+      "displayName": "Short Tail Tabby",
+      "description": "A short-tailed brown-and-black tabby cat with green-yellow eyes, centered tabby face markings, cream muzzle and chest, white whiskers, and a compact bobtail.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/short-tail-tabby-71fcd819de7e/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/short-tail-tabby-71fcd819de7e/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/short-tail-tabby-71fcd819de7e/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cozy",
+        "calm",
+        "playful"
+      ],
+      "tags": [
+        "tabby",
+        "bobtail",
+        "green-yellow-eyes",
+        "cream-muzzle",
+        "brown-and-black"
+      ],
+      "colorFamily": "yellow",
+      "dominantColor": "#bea521",
+      "submittedByName": "iriszyq",
+      "approvedAt": "2026-06-02T06:40:52.283Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 5,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "mack",
+      "displayName": "Mack",
+      "description": "A faithful Codex pet version of the McWOLF mechanical wolf: tall top hat, extra-long snout with black round nose, half-lidded sly eyes, backward wing-like ears, cream and charcoal horizontal striped metal body, thin limbs, glove-like hands, and round shoes.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/mack-2581725684f6/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/mack-2581725684f6/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/mack-2581725684f6/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "mischievous",
+        "edgy",
+        "playful"
+      ],
+      "tags": [
+        "mechanical-wolf",
+        "top-hat",
+        "cream-charcoal",
+        "extra-long-snout",
+        "glove-hands"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#bc944c",
+      "submittedByName": "0xpipilu",
+      "approvedAt": "2026-06-02T03:31:49.713Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "zimo-petdex",
+      "displayName": "zimo",
+      "description": "金发绿夹克像素小人，会随 Codex 任务状态唱歌、比耶、弹肩键盘、等待和审阅。",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/zimo-petdex-84bad52e693e/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/zimo-petdex-84bad52e693e/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/zimo-petdex-84bad52e693e/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "cheerful",
+        "playful",
+        "focused"
+      ],
+      "tags": [
+        "pixel-human",
+        "blond",
+        "green-jacket",
+        "shoulder-keyboard"
+      ],
+      "colorFamily": "red",
+      "dominantColor": "#b62a23",
+      "submittedByName": "bettyoooa",
+      "approvedAt": "2026-06-01T23:55:44.151Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 4,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "qicai-lion",
+      "displayName": "七彩醒狮 Qicai Lion",
+      "description": "A kawaii 2D anime sticker-style rainbow Chinese lion dance desktop pet with pearly white fur and pastel seven-color accents.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/qicai-lion-cf4da227d95a/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/qicai-lion-cf4da227d95a/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/qicai-lion-cf4da227d95a/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cheerful",
+        "playful",
+        "wholesome"
+      ],
+      "tags": [
+        "chinese-lion",
+        "rainbow",
+        "pastel",
+        "pearly-fur",
+        "sticker"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#ea7014",
+      "submittedByName": "伽扬 庄.",
+      "approvedAt": "2026-06-01T23:55:41.786Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 4,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "suketi-the-cat",
+      "displayName": "Suketi the Cat",
+      "description": "A tiny black tuxedo cat with golden eyes and big pixel-art moods.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/suketi-the-cat-f5dc8abfb28a/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/suketi-the-cat-f5dc8abfb28a/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/suketi-the-cat-f5dc8abfb28a/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cozy",
+        "playful",
+        "mischievous"
+      ],
+      "tags": [
+        "tuxedo-cat",
+        "black",
+        "golden-eyes",
+        "pixel-art",
+        "expressive"
+      ],
+      "colorFamily": "yellow",
+      "dominantColor": "#f4d42b",
+      "submittedByName": "luckytsar",
+      "approvedAt": "2026-06-01T23:55:40.733Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 5,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "mesugaki-regent",
+      "displayName": "Mesugaki Regent/雌小鬼储君",
+      "description": "一只 Q 版储君风格王座宠物，拥有桃金色长发、空手爪甲、黑色裂石王座、托举王座的小人偶，以及会变换排列的星辰特效。",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/mesugaki-regent-4ba74d14e080/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/mesugaki-regent-4ba74d14e080/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/mesugaki-regent-4ba74d14e080/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "mischievous",
+        "mystical",
+        "playful"
+      ],
+      "tags": [
+        "regent",
+        "cracked-throne",
+        "peach-gold-hair",
+        "claw-gauntlets",
+        "starry-motes"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#cc6919",
+      "submittedByName": "daijwcb",
+      "approvedAt": "2026-06-01T23:55:39.929Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 1,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "sprout",
+      "displayName": "Sprout",
+      "description": "A cute green helper pet inspired only by the local profile context and the user's green, cute style preference.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/sprout-b2c16d8cc506/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/sprout-b2c16d8cc506/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/sprout-b2c16d8cc506/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cozy",
+        "wholesome",
+        "playful"
+      ],
+      "tags": [
+        "sprout",
+        "green",
+        "helper",
+        "seedling"
+      ],
+      "colorFamily": "lime",
+      "dominantColor": "#acd328",
+      "submittedByName": "Chen W.",
+      "approvedAt": "2026-06-01T23:55:38.135Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 0,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "moro",
+      "displayName": "Moro",
+      "description": "A round mechanical white tiger cub guardian with black stripes, a curled tufted tail, and brass waist-side joints.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/moro-db781e42bc8c/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/moro-db781e42bc8c/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/moro-db781e42bc8c/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "heroic",
+        "mystical",
+        "focused"
+      ],
+      "tags": [
+        "mechanical",
+        "white-tiger",
+        "tiger-cub",
+        "brass-joints",
+        "tufted-tail"
+      ],
+      "colorFamily": "pink",
+      "dominantColor": "#bc49a4",
+      "submittedByName": "0xpipilu",
+      "approvedAt": "2026-06-01T23:55:35.931Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "leorio",
+      "displayName": "Leorio",
+      "description": "Leorio Paradinight from Hunter x Hunter 2011 in his early Hunter Exam/Yorknew suit look.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/leorio-5a8777298a25/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/leorio-5a8777298a25/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/leorio-5a8777298a25/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "heroic",
+        "focused",
+        "wholesome"
+      ],
+      "tags": [
+        "leorio",
+        "hunter-x-hunter",
+        "suit",
+        "hunter-exam",
+        "doctor"
+      ],
+      "colorFamily": "red",
+      "dominantColor": "#9c4931",
+      "submittedByName": "the406operation",
+      "approvedAt": "2026-06-01T23:55:33.114Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 3,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "christmas-zombie",
+      "displayName": "Christmas Zombie",
+      "description": "A cute goofy pixel-art Christmas zombie pet carrying a candy cane with a tiny baby zombie companion.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/christmas-zombie-e2959018482a/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/christmas-zombie-e2959018482a/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/christmas-zombie-e2959018482a/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "playful",
+        "cheerful",
+        "mischievous"
+      ],
+      "tags": [
+        "zombie",
+        "christmas",
+        "candy-cane",
+        "baby-zombie",
+        "festive"
+      ],
+      "colorFamily": "red",
+      "dominantColor": "#d22926",
+      "submittedByName": "星星 涂.",
+      "approvedAt": "2026-06-01T23:55:30.271Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "mars-hei-mei-qiu",
+      "displayName": "火星黑煤球",
+      "description": "火星黑煤球：欢迎回家，我是一只来自火星的深灰色毛绒小精灵，头戴红色花朵，胸前有红白钩织围脖，眼睛亮晶晶，表情甜软，期待早日在火星相见",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/mars-hei-mei-qiu-8fdc8a378fad/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/mars-hei-mei-qiu-8fdc8a378fad/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/mars-hei-mei-qiu-8fdc8a378fad/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cozy",
+        "wholesome",
+        "mystical"
+      ],
+      "tags": [
+        "mars",
+        "plush",
+        "deep-gray",
+        "red-flower",
+        "red-white-scarf"
+      ],
+      "colorFamily": "red",
+      "dominantColor": "#d3101e",
+      "submittedByName": "志鹏 洪.",
+      "approvedAt": "2026-06-01T23:55:28.319Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 3,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "kokoro",
+      "displayName": "Kokoro",
+      "description": "A cheerful upright blonde plush idol pet based on the Kokoro reference, with refined idle, running, and jumping animations.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/kokoro-f0c3e408644a/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/kokoro-f0c3e408644a/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/kokoro-f0c3e408644a/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "cheerful",
+        "playful",
+        "wholesome"
+      ],
+      "tags": [
+        "kokoro",
+        "plush",
+        "idol",
+        "blonde",
+        "upright"
+      ],
+      "colorFamily": "yellow",
+      "dominantColor": "#fce451",
+      "submittedByName": "Befall W.",
+      "approvedAt": "2026-06-01T23:55:27.554Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "taodan",
+      "displayName": "Grapto./桃蛋",
+      "description": "Desktop Planter Series - Grapto. is a succulent (Graptopetalum amethystinum) pot pet that hops softly on your desk. 桌面盆栽系列 - 桃蛋，一只粉粉嫩嫩、会轻轻跳跃的桌面盆栽小宠。",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/taodan-9b419cbdadff/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/taodan-9b419cbdadff/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/taodan-9b419cbdadff/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cozy",
+        "playful",
+        "wholesome"
+      ],
+      "tags": [
+        "graptopetalum-amethystinum",
+        "succulent",
+        "planter",
+        "pink",
+        "hopping"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#e4591a",
+      "submittedByName": "Siugurd",
+      "approvedAt": "2026-06-01T23:55:20.960Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 3,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "baobao-3",
+      "displayName": "BaoBao",
+      "description": "A cute and chubby giant panda in a sky-blue princess dress with small white floral patterns, a thin blue waistband, a large pink satin bow on her head, and a big spiky durian held in both short chubby arms.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/baobao-a0e833f4a2f6/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/baobao-a0e833f4a2f6/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/baobao-a0e833f4a2f6/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "wholesome",
+        "playful",
+        "cheerful"
+      ],
+      "tags": [
+        "giant-panda",
+        "princess-dress",
+        "sky-blue",
+        "pink-bow",
+        "durian"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#ddae24",
+      "submittedByName": "Changsheng W.",
+      "approvedAt": "2026-06-01T23:55:18.859Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 3,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "cherrybyte",
+      "displayName": "Cherrybyte",
+      "description": "An original cherry-accented Codex companion with a nostalgic Japanese comic feel.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/cherrybyte-4727db9f048a/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/cherrybyte-4727db9f048a/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/cherrybyte-4727db9f048a/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "wholesome",
+        "cheerful",
+        "playful"
+      ],
+      "tags": [
+        "cherry",
+        "manga",
+        "pink",
+        "companion"
+      ],
+      "colorFamily": "lime",
+      "dominantColor": "#718c42",
+      "submittedByName": "wujinxd",
+      "approvedAt": "2026-06-01T23:55:18.356Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "qimo-1",
+      "displayName": "祁沫1",
+      "description": "祁沫1是一个青春校园风的可爱双马尾小女孩。她有浅青色的头发和干净明亮的眼睛，像夏天里一颗轻轻冒泡的汽水糖。她有点元气，有点软萌，也有一点小小的倔强；她代表清澈、陪伴，以及在疲惫、迷茫或孤单时重新振作的一点勇气。",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/qimo-1-d7b40b7bfe83/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/qimo-1-d7b40b7bfe83/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/qimo-1-d7b40b7bfe83/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "wholesome",
+        "cheerful",
+        "playful"
+      ],
+      "tags": [
+        "schoolgirl",
+        "twin-tails",
+        "aqua-hair",
+        "soda-candy",
+        "bright-eyes"
+      ],
+      "colorFamily": "blue",
+      "dominantColor": "#5292b8",
+      "submittedByName": "某人 钟.",
+      "approvedAt": "2026-06-01T23:55:15.427Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 6,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "silver-tabby-british-shorthair",
+      "displayName": "包子",
+      "description": "Soft hand-drawn silver tabby British Shorthair based on the provided cat photos: calm, curious, confident, slightly aloof, with dense silver fur, tabby markings, ringed tail, pale muzzle and paws.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/silver-tabby-british-shorthair-5f37eecdcf26/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/silver-tabby-british-shorthair-5f37eecdcf26/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/silver-tabby-british-shorthair-5f37eecdcf26/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "calm",
+        "cozy",
+        "wholesome"
+      ],
+      "tags": [
+        "british-shorthair",
+        "silver-tabby",
+        "dense-fur",
+        "ringed-tail",
+        "pale-paws"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#c89736",
+      "submittedByName": "xiaoshenl",
+      "approvedAt": "2026-06-01T23:55:14.513Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "vpet-loris",
+      "displayName": "VPet Loris",
+      "description": "A compact chibi table-pet companion inspired by the VPet default character.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/vpet-loris-2e05d090b1a5/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/vpet-loris-2e05d090b1a5/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/vpet-loris-2e05d090b1a5/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cozy",
+        "calm",
+        "wholesome"
+      ],
+      "tags": [
+        "loris",
+        "chibi",
+        "vpet",
+        "table-companion"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#db8623",
+      "submittedByName": "某人 钟.",
+      "approvedAt": "2026-06-01T23:55:12.522Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 4,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "tuangju",
+      "displayName": "团橘",
+      "description": "A fluffy orange-and-white kitten with round amber eyes, pink nose, huge upright plume tail, and a small golden-orange mouth-corner patch.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/tuangju-69c66d3e9bd1/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/tuangju-69c66d3e9bd1/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/tuangju-69c66d3e9bd1/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cozy",
+        "playful",
+        "wholesome"
+      ],
+      "tags": [
+        "kitten",
+        "orange-white",
+        "amber-eyes",
+        "plume-tail",
+        "cheek-patch"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#ea882a",
+      "submittedByName": "destiny-9527",
+      "approvedAt": "2026-06-01T23:55:11.428Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 3,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "matcha-star",
+      "displayName": "Matcha Star",
+      "description": "A compact chibi sticker pet inspired by a matcha-ice-cream selfie: dark hair, tiny yellow star forehead stickers, plaid overshirt, phone, and a matcha cone prop.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/matcha-star-9a30d2a83936/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/matcha-star-9a30d2a83936/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/matcha-star-9a30d2a83936/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "cheerful",
+        "cozy",
+        "playful"
+      ],
+      "tags": [
+        "chibi",
+        "matcha-ice-cream",
+        "star-forehead",
+        "plaid-overshirt",
+        "selfie-phone"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#cea03a",
+      "submittedByName": "chipeng0412",
+      "approvedAt": "2026-06-01T23:55:08.501Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "mage",
+      "displayName": "mage",
+      "description": "A tiny arcane mage pet in magenta robes with icy blue crystals, a tall horned helm, and compact chibi Codex-pet proportions.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/mage-e4cf1551eb15/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/mage-e4cf1551eb15/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/mage-e4cf1551eb15/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "mystical",
+        "playful",
+        "focused"
+      ],
+      "tags": [
+        "mage",
+        "magenta-robes",
+        "icy-crystals",
+        "horned-helm"
+      ],
+      "colorFamily": "pink",
+      "dominantColor": "#c1409a",
+      "submittedByName": "谦 张.",
+      "approvedAt": "2026-06-01T23:55:06.501Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 3,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "warrior",
+      "displayName": "warrior",
+      "description": "A tiny chibi warrior pet inspired by purple-blue and gold skull-plated fantasy raid armor with green fel flames.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/warrior-50a568184d71/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/warrior-50a568184d71/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/warrior-50a568184d71/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "heroic",
+        "edgy",
+        "mystical"
+      ],
+      "tags": [
+        "chibi",
+        "warrior",
+        "skull-armor",
+        "purple-blue",
+        "fel-flames"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#c59f3b",
+      "submittedByName": "谦 张.",
+      "approvedAt": "2026-06-01T23:55:04.128Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "wildbloom",
+      "displayName": "Wildbloom",
+      "description": "A tiny chibi forest druid pet with carved antlers, golden fur shoulders, wooden armor, and emerald leaf magic.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/wildbloom-edcde97da395/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/wildbloom-edcde97da395/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/wildbloom-edcde97da395/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "mystical",
+        "wholesome",
+        "calm"
+      ],
+      "tags": [
+        "druid",
+        "chibi",
+        "carved-antlers",
+        "golden-fur",
+        "emerald-leaf-magic"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#d09b26",
+      "submittedByName": "谦 张.",
+      "approvedAt": "2026-06-01T23:55:03.333Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "cute-lulu",
+      "displayName": "cute-lulu",
+      "description": "A yellow-orange plush desktop pet that shows Codex task status through distinct actions.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/cute-lulu-14174d4cc181/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/cute-lulu-14174d4cc181/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/cute-lulu-14174d4cc181/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "cozy",
+        "cheerful",
+        "focused"
+      ],
+      "tags": [
+        "plush-toy",
+        "desktop",
+        "task-indicator",
+        "yellow-orange",
+        "status-display"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#fb8c04",
+      "submittedByName": "plxj6666",
+      "approvedAt": "2026-06-01T23:55:02.062Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 8,
+        "likeCount": 1,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "slate-tally-tile",
+      "displayName": "Slate Tally Tile",
+      "description": "A compact slate tile with softened surface marks and chipped edge details.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/slate-tally-tile-a67b065e561d/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/slate-tally-tile-a67b065e561d/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/slate-tally-tile-a67b065e561d/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "calm",
+        "melancholic"
+      ],
+      "tags": [
+        "slate",
+        "tile",
+        "chipped-edge",
+        "weathered",
+        "charcoal"
+      ],
+      "colorFamily": "purple",
+      "dominantColor": "#f40ae4",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-06-01T23:54:59.669Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 4,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "amber-column-guide",
+      "displayName": "Amber Column Guide",
+      "description": "A small transparent column guide with a trapped amber measuring bead.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/amber-column-guide-25112bb57a90/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/amber-column-guide-25112bb57a90/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/amber-column-guide-25112bb57a90/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "mystical",
+        "calm",
+        "focused"
+      ],
+      "tags": [
+        "amber",
+        "transparent",
+        "column-guide",
+        "measuring-bead",
+        "lab-instrument"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#cf9748",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-06-01T23:54:58.246Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "monstera",
+      "displayName": "Monstera",
+      "description": "Desktop Planter Series - Monstera is a cheerful golden-splashed Monstera pot pet that hops around your desk. 桌面盆栽系列 - 洒金龟背竹，一只会在桌面轻轻跳跃、带来明亮陪伴的可爱盆栽小宠。",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/monstera-8fc861769936/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/monstera-8fc861769936/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/monstera-8fc861769936/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "cheerful",
+        "playful",
+        "wholesome"
+      ],
+      "tags": [
+        "monstera",
+        "planter",
+        "desktop",
+        "gold-splashed",
+        "hopping"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#e16224",
+      "submittedByName": "Siugurd",
+      "approvedAt": "2026-06-01T23:54:55.692Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 8,
+        "likeCount": 1,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "dog-million",
+      "displayName": "狗百万",
+      "description": "写实贴纸风橘白短毛猫桌面宠物，聪明好奇，黄绿色大眼，粉鼻，白色鼻梁和胸腹，背部大片橘色斑，橘色环纹尾巴。",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/dog-million-5b00229ddaed/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/dog-million-5b00229ddaed/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/dog-million-5b00229ddaed/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "playful",
+        "cozy",
+        "focused"
+      ],
+      "tags": [
+        "cat",
+        "orange-white",
+        "realistic-sticker",
+        "yellow-green-eyes",
+        "pink-nose"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#ce7a21",
+      "submittedByName": "gannonsun",
+      "approvedAt": "2026-06-01T23:54:50.714Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 4,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "xiyue",
+      "displayName": "汐月同学",
+      "description": "我是枣庄王桂芳",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/xiyue-c19fb632c6fc/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/xiyue-c19fb632c6fc/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/xiyue-c19fb632c6fc/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "wholesome",
+        "calm"
+      ],
+      "tags": [
+        "student",
+        "wang-guifang",
+        "zao-zhuang",
+        "moon-tide"
+      ],
+      "colorFamily": "red",
+      "dominantColor": "#c4838e",
+      "submittedByName": "bluefrog",
+      "approvedAt": "2026-06-01T23:46:14.186Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 5,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "biscuit-krueger",
+      "displayName": "Biscuit Krueger",
+      "description": "A chibi pixel-art Codex pet of Bisky, the sweet-looking mentor Hunter with a concealed muscular true form.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/biscuit-krueger-2891ac6791af/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/biscuit-krueger-2891ac6791af/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/biscuit-krueger-2891ac6791af/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "mischievous",
+        "heroic",
+        "playful"
+      ],
+      "tags": [
+        "biscuit-krueger",
+        "hunter",
+        "mentor",
+        "chibi",
+        "muscle-form"
+      ],
+      "colorFamily": "red",
+      "dominantColor": "#c52e46",
+      "submittedByName": "the406operation",
+      "approvedAt": "2026-06-01T23:38:48.877Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "dusty",
+      "displayName": "Dusty",
+      "description": "A faithful Codex pet recreation of a shy long-haired gray stray cat with heavy face-covering bangs, one warm yellow eye, a brass bell collar, an old side pouch, and a huge fluffy tail.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/dusty-adc25aba2549/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/dusty-adc25aba2549/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/dusty-adc25aba2549/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cozy",
+        "melancholic",
+        "wholesome"
+      ],
+      "tags": [
+        "cat",
+        "long-haired",
+        "gray",
+        "heavy-bangs",
+        "brass-bell-collar"
+      ],
+      "colorFamily": "brown",
+      "dominantColor": "#8d5a2e",
+      "submittedByName": "0xpipilu",
+      "approvedAt": "2026-06-01T23:38:46.911Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "loudspeaker-panda",
+      "displayName": "Loudspeaker Panda",
+      "description": "Speak!Speak!Speak!Speak!Speak!",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/loudspeaker-panda-ba80a5b39f80/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/loudspeaker-panda-ba80a5b39f80/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/loudspeaker-panda-ba80a5b39f80/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "playful",
+        "chaotic",
+        "mischievous"
+      ],
+      "tags": [
+        "panda",
+        "loudspeaker",
+        "announcer",
+        "noisy"
+      ],
+      "colorFamily": "blue",
+      "dominantColor": "#308cac",
+      "submittedByName": "qi-ng-mu",
+      "approvedAt": "2026-05-31T16:02:17.904Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "nijika-drummer",
+      "displayName": "Nijika Drummer",
+      "description": "孤独摇滚人物，虹夏。",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/nijika-drummer-57d3eff175cc/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/nijika-drummer-57d3eff175cc/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/nijika-drummer-57d3eff175cc/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "cheerful",
+        "playful",
+        "focused"
+      ],
+      "tags": [
+        "drummer",
+        "chibi",
+        "stage",
+        "warm-lights",
+        "nijika-ijichi"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#f3c44c",
+      "submittedByName": "restiantian",
+      "approvedAt": "2026-05-31T16:02:03.414Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 1,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "michelle",
+      "displayName": "米雪儿（Michelle）",
+      "description": "卡丘喵，饿死了喵，做我老婆喵～",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/michelle-7f5178931fcf/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/michelle-7f5178931fcf/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/michelle-7f5178931fcf/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "playful",
+        "mischievous",
+        "heroic"
+      ],
+      "tags": [
+        "michelle",
+        "blonde",
+        "cat-eye-mask",
+        "orange-white-outfit",
+        "bomb-defuser"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#f1b155",
+      "submittedByName": "1liya",
+      "approvedAt": "2026-05-31T16:02:02.173Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 6,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "ryo-yamada-bass",
+      "displayName": "Ryo Yamada Bass",
+      "description": "孤独摇滚人物，山田凉。",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/ryo-yamada-bass-2864dd1fe08e/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/ryo-yamada-bass-2864dd1fe08e/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/ryo-yamada-bass-2864dd1fe08e/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "edgy",
+        "melancholic",
+        "focused"
+      ],
+      "tags": [
+        "jk",
+        "bassist",
+        "blue-hair",
+        "grass-eating",
+        "stage-lit"
+      ],
+      "colorFamily": "blue",
+      "dominantColor": "#4c6ca1",
+      "submittedByName": "restiantian",
+      "approvedAt": "2026-05-31T16:02:00.924Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 4,
+        "likeCount": 1,
+        "zipDownloadCount": 1
+      }
+    },
+    {
+      "slug": "naori",
+      "displayName": "naori",
+      "description": "A custom Codex pet generated from an uploaded photo.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/naori-f7e296b51689/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/naori-f7e296b51689/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/naori-f7e296b51689/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "wholesome",
+        "cheerful"
+      ],
+      "tags": [
+        "custom",
+        "personalized",
+        "photo-based",
+        "avatar"
+      ],
+      "colorFamily": "yellow",
+      "dominantColor": "#d0b444",
+      "submittedByName": "dlwlrmauuuu",
+      "approvedAt": "2026-05-31T16:01:56.184Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 5,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "yunyun",
+      "displayName": "晕晕",
+      "description": "小Q挚爱的二次元角色，是像天使一样的恶魔。Rim de Lacent!",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/yunyun-5755e4d974c2/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/yunyun-5755e4d974c2/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/yunyun-5755e4d974c2/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "mischievous",
+        "mystical",
+        "cheerful"
+      ],
+      "tags": [
+        "anime",
+        "angelic-demon",
+        "wings",
+        "rim-de-lacent"
+      ],
+      "colorFamily": "lime",
+      "dominantColor": "#bcdf74",
+      "submittedByName": "march-7th-mini",
+      "approvedAt": "2026-05-31T16:01:53.920Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 5,
+        "likeCount": 1,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "grit",
+      "displayName": "Grit",
+      "description": "A faithful Codex pet recreation of a gray-and-cream spotted mechanical explorer kitten with brass goggles, a bell collar, a vintage brass backpack, and a gentle map-reading companion spirit.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/grit-b1d4076ec713/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/grit-b1d4076ec713/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/grit-b1d4076ec713/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "wholesome",
+        "mystical",
+        "focused"
+      ],
+      "tags": [
+        "mechanical-kitten",
+        "brass-goggles",
+        "bell-collar",
+        "vintage-backpack",
+        "map-spirit"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#c8943e",
+      "submittedByName": "0xpipilu",
+      "approvedAt": "2026-05-31T16:01:48.839Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "pinka",
+      "displayName": "Pinka",
+      "description": "A faithful Codex pet of a soft pale-pink closed-eye cat with a tiny crown, pink bow, bell, and gold pocket watch, preserved as a calm elegant tea-time companion.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/pinka-ee73ff0baaa0/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/pinka-ee73ff0baaa0/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/pinka-ee73ff0baaa0/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "calm",
+        "cozy",
+        "wholesome"
+      ],
+      "tags": [
+        "cat",
+        "pale-pink",
+        "tea-time",
+        "crown",
+        "gold-pocket-watch"
+      ],
+      "colorFamily": "brown",
+      "dominantColor": "#af7249",
+      "submittedByName": "0xpipilu",
+      "approvedAt": "2026-05-31T16:01:47.847Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 4,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "miso-3",
+      "displayName": "Miso",
+      "description": "A compact Codex pet version of the attached reference cat: a small cream-bodied assassin cat with a dark black-brown face mask, very large round bright yellow eyes, a brass bell collar, a visible brass wind-up key on the back, a brass mechanical front-leg brace, almost no tail, a",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/miso-28ed865aaa81/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/miso-28ed865aaa81/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/miso-28ed865aaa81/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "mischievous",
+        "edgy",
+        "focused"
+      ],
+      "tags": [
+        "cat",
+        "cream",
+        "face-mask",
+        "wind-up-key",
+        "assassin"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#d29d30",
+      "submittedByName": "0xpipilu",
+      "approvedAt": "2026-05-31T16:01:45.930Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 3,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "patch-2",
+      "displayName": "Patch",
+      "description": "A faithful black-and-cream programmer cat Codex pet with heavy straight black bangs, warm sleepy yellow eyes, a brass bell collar, a brown leather tool pouch, and a quiet Machinarium-like companion mood.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/patch-d88a18c750d8/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/patch-d88a18c750d8/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/patch-d88a18c750d8/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "calm",
+        "focused",
+        "melancholic"
+      ],
+      "tags": [
+        "cat",
+        "programmer",
+        "black-and-cream",
+        "tool-pouch",
+        "brass-bell"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#bd8131",
+      "submittedByName": "0xpipilu",
+      "approvedAt": "2026-05-31T16:01:43.701Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "daodun-dog-2",
+      "displayName": "刀盾狗",
+      "description": "参考图风格的圆滚滚刀盾狗，手持短刀和盾牌，坏笑但可爱。",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/daodun-dog-3d4d090e5059/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/daodun-dog-3d4d090e5059/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/daodun-dog-3d4d090e5059/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "mischievous",
+        "playful",
+        "cheerful"
+      ],
+      "tags": [
+        "dog",
+        "knife",
+        "shield",
+        "chubby",
+        "mischievous-grin"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#dc8f44",
+      "submittedByName": "心 净.",
+      "approvedAt": "2026-05-31T16:01:39.876Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 9,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "ajisai",
+      "displayName": "Ajisai (紫阳花)",
+      "description": "A Codex pet inspired by Ajisai Sena (濑名紫阳花) from There's No Freaking Way I'll Be Your Lover! Unless... (恋人不行), a high school girl with soft light-brown hair, gentle eyes, a sailor uniform, and a cheerful smiling pose.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/ajisai-ee8f7f2fa991/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/ajisai-ee8f7f2fa991/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/ajisai-ee8f7f2fa991/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "cheerful",
+        "wholesome",
+        "calm"
+      ],
+      "tags": [
+        "ajisai-sena",
+        "sailor-uniform",
+        "light-brown-hair",
+        "high-school",
+        "gentle-smile"
+      ],
+      "colorFamily": "pink",
+      "dominantColor": "#bc549c",
+      "submittedByName": "mytristan",
+      "approvedAt": "2026-05-31T16:01:38.586Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 12,
+        "likeCount": 2,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "stefanie",
+      "displayName": "Stefanie",
+      "description": "A chibi pixel-art Codex pet inspired by a Mandopop stage idol, with a wine-red ponytail, sparkling concert costume, and mic in hand.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/stefanie-40d3d0f08fb9/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/stefanie-40d3d0f08fb9/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/stefanie-40d3d0f08fb9/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "cheerful",
+        "playful",
+        "wholesome"
+      ],
+      "tags": [
+        "mandopop",
+        "idol",
+        "mic",
+        "wine-red-ponytail",
+        "sparkling-costume"
+      ],
+      "colorFamily": "blue",
+      "dominantColor": "#3ca4ec",
+      "submittedByName": "rinkura",
+      "approvedAt": "2026-05-31T16:01:36.608Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "m4a1",
+      "displayName": "M4A1",
+      "description": "A chibi tactical operator pet with long dark hair, olive-black armor, neon green accents, and a Jupiter gun, the leader of AR, from GF for Codex app.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/m4a1-e2ebea04ba65/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/m4a1-e2ebea04ba65/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/m4a1-e2ebea04ba65/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "edgy",
+        "focused",
+        "heroic"
+      ],
+      "tags": [
+        "operator",
+        "olive-black",
+        "neon-green",
+        "jupiter-gun",
+        "long-dark-hair"
+      ],
+      "colorFamily": "yellow",
+      "dominantColor": "#787b23",
+      "submittedByName": "Sean L.",
+      "approvedAt": "2026-05-31T16:01:33.991Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "nib",
+      "displayName": "Nib",
+      "description": "A faithful Codex pet recreation of a round chibi fishing cat sitting in an integrated little boat seat, with a fluffy white pom-pom hat, big round eyes, a small blue-gray fish, and a thin fishing rod with line and bobber.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/nib-c6040a002b82/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/nib-c6040a002b82/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/nib-c6040a002b82/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cozy",
+        "playful",
+        "wholesome"
+      ],
+      "tags": [
+        "fishing-cat",
+        "boat-seat",
+        "pom-pom-hat",
+        "fishing-rod",
+        "blue-gray-fish"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#c48c2c",
+      "submittedByName": "0xpipilu",
+      "approvedAt": "2026-05-31T16:01:32.887Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 4,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "mai",
+      "displayName": "Mai (真唯)",
+      "description": "A Codex pet inspired by Mai Ouzuka (王塚真唯) from There's No Freaking Way I'll Be Your Lover! Unless... (恋人不行), a high school girl with long blonde hair, blue eyes, a black school uniform, and a confident cute pose.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/mai-ab28d837d24e/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/mai-ab28d837d24e/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/mai-ab28d837d24e/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "cheerful",
+        "playful",
+        "mischievous"
+      ],
+      "tags": [
+        "high-school-girl",
+        "blonde",
+        "blue-eyes",
+        "black-uniform",
+        "mai-ouzuka"
+      ],
+      "colorFamily": "green",
+      "dominantColor": "#5dad51",
+      "submittedByName": "mytristan",
+      "approvedAt": "2026-05-31T16:01:27.236Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "xiaoren",
+      "displayName": "小忍",
+      "description": "A cheerful compact chibi blonde anime-inspired digital pet with golden eyes, long hair, a white dress, and a red bow.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/xiaoren-259c4557fd4a/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/xiaoren-259c4557fd4a/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/xiaoren-259c4557fd4a/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "cheerful",
+        "playful",
+        "wholesome"
+      ],
+      "tags": [
+        "chibi",
+        "anime",
+        "blonde",
+        "white-dress",
+        "red-bow"
+      ],
+      "colorFamily": "yellow",
+      "dominantColor": "#fce264",
+      "submittedByName": "某",
+      "approvedAt": "2026-05-31T16:01:26.384Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 3,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "lian-3",
+      "displayName": "Lian",
+      "description": "A tiny pink-haired lion-dance chibi companion with warm golden eyes, red festive headpiece, bells, and tassels.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/lian-aed075301650/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/lian-aed075301650/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/lian-aed075301650/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cheerful",
+        "playful",
+        "wholesome"
+      ],
+      "tags": [
+        "lion-dance",
+        "pink-haired",
+        "golden-eyes",
+        "bells",
+        "tassels"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#ee6716",
+      "submittedByName": "某",
+      "approvedAt": "2026-05-31T16:01:23.242Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 4,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "motika",
+      "displayName": "Motika",
+      "description": "A head-only Yukkuri-style Motika companion built directly from the original pixel sprites.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/motika-a7637b4d4c9f/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/motika-a7637b4d4c9f/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/motika-a7637b4d4c9f/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "playful",
+        "mischievous",
+        "cheerful"
+      ],
+      "tags": [
+        "yukkuri",
+        "motika",
+        "pixel-sprite",
+        "head-only",
+        "touhou"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#ed970e",
+      "submittedByName": "ohirune",
+      "approvedAt": "2026-05-31T16:01:22.107Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 7,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "tribbie",
+      "displayName": "Tribbie",
+      "description": "A tiny energetic pixel chibi girl pet inspired by Tribbie.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/tribbie-331c6968d7f7/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/tribbie-331c6968d7f7/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/tribbie-331c6968d7f7/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "playful",
+        "cheerful",
+        "mischievous"
+      ],
+      "tags": [
+        "chibi",
+        "girl",
+        "tribbie",
+        "pixel",
+        "energetic"
+      ],
+      "colorFamily": "red",
+      "dominantColor": "#dc2610",
+      "submittedByName": "Denny J.",
+      "approvedAt": "2026-05-31T16:01:18.620Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 3,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "diao-chan",
+      "displayName": "貂小蝉",
+      "description": "Chibi pixel-style Diao Xiao Chan in pink ancient Hanfu with lotus ornaments and flowing long sleeves.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/diao-chan-17e6292a9ea5/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/diao-chan-17e6292a9ea5/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/diao-chan-17e6292a9ea5/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "mystical",
+        "wholesome",
+        "calm"
+      ],
+      "tags": [
+        "diaochan",
+        "hanfu",
+        "pink",
+        "lotus",
+        "flowing-sleeves"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#dc9f39",
+      "submittedByName": "glcd 2.",
+      "approvedAt": "2026-05-31T16:01:14.158Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 0,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "iroha2",
+      "displayName": "Iroha",
+      "description": "A Codex pet inspired by Sakayori Iroha (酒寄彩叶) from Cosmic Princess Kaguya (超时空辉夜姬), featuring a high school girl with navy-purple hair, green eyes, a sailor uniform, sunglasses, and a playful jumping pose.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/iroha2-0deec13a3a7b/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/iroha2-0deec13a3a7b/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/iroha2-0deec13a3a7b/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "playful",
+        "cheerful",
+        "mischievous"
+      ],
+      "tags": [
+        "schoolgirl",
+        "sailor-uniform",
+        "navy-purple-hair",
+        "green-eyes",
+        "cosmic-princess-kaguya"
+      ],
+      "colorFamily": "blue",
+      "dominantColor": "#5d8bb7",
+      "submittedByName": "mytristan",
+      "approvedAt": "2026-05-31T16:01:12.884Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 0,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "crownbeak",
+      "displayName": "Crownbeak",
+      "description": "A compact original blue-feathered raven guardian Codex pet with a small gold crown helm, cyan beak, purple mantle, and tiny cyan pendant.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/crownbeak-d6165fb406eb/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/crownbeak-d6165fb406eb/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/crownbeak-d6165fb406eb/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "mystical",
+        "heroic",
+        "wholesome"
+      ],
+      "tags": [
+        "raven",
+        "blue-feathers",
+        "gold-crown",
+        "cyan-beak",
+        "guardian"
+      ],
+      "colorFamily": "teal",
+      "dominantColor": "#4fc2c0",
+      "submittedByName": "谦 张.",
+      "approvedAt": "2026-05-31T16:01:08.841Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "lensy-waveguide",
+      "displayName": "Lensy Waveguide",
+      "description": "A tiny anthropomorphic black AI glasses pet with green waveguide HUD eyes and a camera sensor.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/lensy-waveguide-e71c67e38c9f/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/lensy-waveguide-e71c67e38c9f/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/lensy-waveguide-e71c67e38c9f/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "focused",
+        "edgy"
+      ],
+      "tags": [
+        "glasses",
+        "ai",
+        "black",
+        "waveguide-hud",
+        "camera-sensor"
+      ],
+      "colorFamily": "green",
+      "dominantColor": "#4cb31a",
+      "submittedByName": "谦 张.",
+      "approvedAt": "2026-05-31T16:01:07.263Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 3,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "lensy",
+      "displayName": "Lensy",
+      "description": "A tiny anthropomorphic black AI glasses pet with expressive lenses and a camera sensor.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/lensy-b1a262bebb4f/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/lensy-b1a262bebb4f/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/lensy-b1a262bebb4f/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "playful",
+        "focused",
+        "cheerful"
+      ],
+      "tags": [
+        "glasses",
+        "ai",
+        "camera-sensor",
+        "black",
+        "expressive-lenses"
+      ],
+      "colorFamily": "blue",
+      "dominantColor": "#80b0cb",
+      "submittedByName": "谦 张.",
+      "approvedAt": "2026-05-31T16:01:05.454Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "paladin",
+      "displayName": "帕拉丁",
+      "description": "A tiny hooded paladin pet inspired by judgment-style fantasy armor, with gold and red plate, grey-black robes, and blue shoulder flames.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/paladin-0d7c1244bbee/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/paladin-0d7c1244bbee/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/paladin-0d7c1244bbee/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "heroic",
+        "mystical",
+        "focused"
+      ],
+      "tags": [
+        "paladin",
+        "hooded",
+        "plate-armor",
+        "gold-and-red-armor",
+        "blue-shoulder-flames"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#e59c28",
+      "submittedByName": "谦 张.",
+      "approvedAt": "2026-05-31T16:01:02.207Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "warlock",
+      "displayName": "术士",
+      "description": "A tiny chibi fel warlock pet in purple and green robes with horned bone helm, skull shoulders, and contained green magic.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/warlock-6bac9ad9875e/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/warlock-6bac9ad9875e/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/warlock-6bac9ad9875e/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "mystical",
+        "mischievous",
+        "edgy"
+      ],
+      "tags": [
+        "warlock",
+        "fel",
+        "purple-green",
+        "horned-helm",
+        "skull-shoulders"
+      ],
+      "colorFamily": "lime",
+      "dominantColor": "#bfd11a",
+      "submittedByName": "谦 张.",
+      "approvedAt": "2026-05-31T16:01:00.702Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "ribbon-bunny",
+      "displayName": "Ribbon Bunny",
+      "description": "A soft anime-inspired chibi bunny-ear pet with blonde twin tails, blue bows, and a cream-and-pale-blue frilled outfit.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/ribbon-bunny-fb88fefe2790/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/ribbon-bunny-fb88fefe2790/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/ribbon-bunny-fb88fefe2790/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "cheerful",
+        "wholesome",
+        "playful"
+      ],
+      "tags": [
+        "bunny",
+        "blonde",
+        "twin-tails",
+        "blue-bows",
+        "frilled-outfit"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#d9a163",
+      "submittedByName": "nanqmg",
+      "approvedAt": "2026-05-31T16:00:56.583Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 5,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "q",
+      "displayName": "小Q酱",
+      "description": "晕晕嘿嘿晕晕、呜哇啊啊啊啊啊啊啊啊！\n晕晕电波发射！",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/q-08c0a3a97174/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/q-08c0a3a97174/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/q-08c0a3a97174/zip.zip",
+      "kind": "creature",
+      "vibes": [
+        "playful",
+        "mischievous",
+        "chaotic"
+      ],
+      "tags": [
+        "blob",
+        "dizzy",
+        "electric-wave",
+        "squishy"
+      ],
+      "colorFamily": "pink",
+      "dominantColor": "#c03c9c",
+      "submittedByName": "march-7th-mini",
+      "approvedAt": "2026-05-31T16:00:53.395Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 6,
+        "likeCount": 1,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "rook-2",
+      "displayName": "Rook",
+      "description": "A faithful Codex pet adaptation of a noir mechanical mouse detective with giant round ears, a worn brown leather hat, a weathered blue-gray trench coat, warm glowing mechanical eyes, no tail, and a small vintage pistol.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/rook-22488973e16f/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/rook-22488973e16f/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/rook-22488973e16f/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "edgy",
+        "focused",
+        "melancholic"
+      ],
+      "tags": [
+        "mouse",
+        "detective",
+        "noir",
+        "mechanical",
+        "vintage-pistol"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#cf9621",
+      "submittedByName": "0xpipilu",
+      "approvedAt": "2026-05-31T16:00:51.444Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "quiet-file-rail",
+      "displayName": "Quiet File Rail",
+      "description": "A short file rail segment with two capped ends and a dark center groove.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/quiet-file-rail-37e24eaf1fe5/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/quiet-file-rail-37e24eaf1fe5/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/quiet-file-rail-37e24eaf1fe5/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "calm",
+        "focused"
+      ],
+      "tags": [
+        "file-rail",
+        "rail-segment",
+        "capped-ends",
+        "dark-groove",
+        "short"
+      ],
+      "colorFamily": "brown",
+      "dominantColor": "#b9845c",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-05-31T16:00:44.418Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 0,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "blank-ledger-slider",
+      "displayName": "Blank Ledger Slider",
+      "description": "A narrow metal ledger slider with its index window rubbed blank.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/blank-ledger-slider-7556820148e0/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/blank-ledger-slider-7556820148e0/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/blank-ledger-slider-7556820148e0/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "calm",
+        "focused",
+        "melancholic"
+      ],
+      "tags": [
+        "ledger-slider",
+        "metal",
+        "index-window",
+        "rubbed-blank",
+        "vintage"
+      ],
+      "colorFamily": "brown",
+      "dominantColor": "#b48c5c",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-05-31T16:00:42.855Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 8,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "boxwood-tab-box",
+      "displayName": "Boxwood Tab Box",
+      "description": "A small wooden tab box with no labels and a soot-dark latch.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/boxwood-tab-box-cd4c0d0fd46b/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/boxwood-tab-box-cd4c0d0fd46b/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/boxwood-tab-box-cd4c0d0fd46b/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "mystical",
+        "calm",
+        "edgy"
+      ],
+      "tags": [
+        "wooden-box",
+        "tab-box",
+        "soot-latch",
+        "unlabeled"
+      ],
+      "colorFamily": "brown",
+      "dominantColor": "#a7703b",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-05-31T16:00:41.993Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 1,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "tarnished-tab-puller",
+      "displayName": "Tarnished Tab Puller",
+      "description": "A file drawer pull-tab with no drawer and one chipped enamel face.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/tarnished-tab-puller-f0762347c19c/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/tarnished-tab-puller-f0762347c19c/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/tarnished-tab-puller-f0762347c19c/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "melancholic",
+        "edgy"
+      ],
+      "tags": [
+        "drawer-pull",
+        "pull-tab",
+        "enamel",
+        "chipped",
+        "tarnished"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#b4925e",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-05-31T16:00:40.001Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "misfiled-thumbtack",
+      "displayName": "Misfiled Thumbtack",
+      "description": "A squat thumbtack with a cork cap and a sideways brass glint.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/misfiled-thumbtack-67612890921d/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/misfiled-thumbtack-67612890921d/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/misfiled-thumbtack-67612890921d/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "mischievous",
+        "wholesome"
+      ],
+      "tags": [
+        "thumbtack",
+        "cork-cap",
+        "brass-glint",
+        "desk-accessory"
+      ],
+      "colorFamily": "brown",
+      "dominantColor": "#844c30",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-05-31T16:00:39.124Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 3,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "sealed-blotter-corner",
+      "displayName": "Sealed Blotter Corner",
+      "description": "A torn blotter corner hardened around a black ink bloom.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/sealed-blotter-corner-80c258fe7261/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/sealed-blotter-corner-80c258fe7261/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/sealed-blotter-corner-80c258fe7261/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "mystical",
+        "edgy",
+        "melancholic"
+      ],
+      "tags": [
+        "blotter",
+        "ink-bloom",
+        "black-ink",
+        "torn-corner",
+        "sealed"
+      ],
+      "colorFamily": "brown",
+      "dominantColor": "#6a4c30",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-05-31T16:00:37.012Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "folded-carbon-clip",
+      "displayName": "Folded Carbon Clip",
+      "description": "A folded carbon-paper clip with a blue-black smudge sealed inside.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/folded-carbon-clip-ad95a06b2028/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/folded-carbon-clip-ad95a06b2028/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/folded-carbon-clip-ad95a06b2028/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "mystical",
+        "edgy"
+      ],
+      "tags": [
+        "paperclip",
+        "carbon",
+        "blue-black-smudge",
+        "folded"
+      ],
+      "colorFamily": "brown",
+      "dominantColor": "#7d553c",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-05-31T16:00:35.902Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 5,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "dull-pencil-ferrule",
+      "displayName": "Dull Pencil Ferrule",
+      "description": "A worn pencil ferrule with no pencil left and one dark crimp.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/dull-pencil-ferrule-45f8dfbdae74/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/dull-pencil-ferrule-45f8dfbdae74/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/dull-pencil-ferrule-45f8dfbdae74/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "melancholic",
+        "calm",
+        "wholesome"
+      ],
+      "tags": [
+        "pencil-ferrule",
+        "worn",
+        "metal",
+        "dark-crimp",
+        "lonely"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#966111",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-05-31T16:00:34.954Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 7,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "closed-ribbon-spool",
+      "displayName": "Closed Ribbon Spool",
+      "description": "A small typewriter ribbon spool wound tight around dry black cloth.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/closed-ribbon-spool-896cfe8d0168/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/closed-ribbon-spool-896cfe8d0168/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/closed-ribbon-spool-896cfe8d0168/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "melancholic",
+        "calm"
+      ],
+      "tags": [
+        "typewriter",
+        "ribbon-spool",
+        "black-cloth",
+        "inkless"
+      ],
+      "colorFamily": "pink",
+      "dominantColor": "#872a7f",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-05-31T16:00:31.353Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 4,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "staple-jar",
+      "displayName": "Staple Jar",
+      "description": "A corked tiny jar holding bent staples like trapped metal ribs.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/staple-jar-a25e8e9efae3/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/staple-jar-a25e8e9efae3/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/staple-jar-a25e8e9efae3/zip.zip",
+      "kind": "object",
+      "vibes": [
+        "melancholic",
+        "edgy"
+      ],
+      "tags": [
+        "jar",
+        "staples",
+        "corked",
+        "metal-ribs",
+        "desk-accessory"
+      ],
+      "colorFamily": "orange",
+      "dominantColor": "#b75418",
+      "submittedByName": "codexfede",
+      "approvedAt": "2026-05-31T16:00:30.567Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 0,
+        "zipDownloadCount": 0
+      }
+    },
+    {
+      "slug": "ranni-2",
+      "displayName": "Ranni",
+      "description": "A pixel-art Codex pet inspired by Ranni the Witch from Elden Ring.",
+      "spritesheetUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/ranni-5b78f4c886f9/sprite.webp",
+      "petJsonUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/ranni-5b78f4c886f9/petjson.json",
+      "zipUrl": "https://pub-94495283df974cfea5e98d6a9e3fa462.r2.dev/pets/ranni-5b78f4c886f9/zip.zip",
+      "kind": "character",
+      "vibes": [
+        "mystical",
+        "melancholic",
+        "calm"
+      ],
+      "tags": [
+        "witch",
+        "ranni",
+        "elden-ring",
+        "blue-robes",
+        "moon"
+      ],
+      "colorFamily": "blue",
+      "dominantColor": "#517fbe",
+      "submittedByName": "u Y.",
+      "approvedAt": "2026-05-31T16:00:26.384Z",
+      "featured": false,
+      "source": "submit",
+      "metrics": {
+        "installCount": 2,
+        "likeCount": 1,
+        "zipDownloadCount": 0
+      }
+    }
+  ],
+  "facets": {
+    "kinds": {
+      "creature": 1153,
+      "object": 256,
+      "character": 1486
+    },
+    "vibes": {
+      "cozy": 514,
+      "calm": 758,
+      "playful": 1257,
+      "cheerful": 923,
+      "focused": 646,
+      "mischievous": 594,
+      "heroic": 454,
+      "edgy": 545,
+      "mystical": 756,
+      "wholesome": 1252,
+      "chaotic": 120,
+      "melancholic": 289
+    },
+    "colors": {
+      "red": 512,
+      "orange": 987,
+      "yellow": 232,
+      "lime": 61,
+      "green": 56,
+      "teal": 69,
+      "blue": 339,
+      "indigo": 46,
+      "purple": 114,
+      "pink": 130,
+      "brown": 271,
+      "neutral": 2
+    },
+    "batches": [
+      {
+        "key": "2026-06",
+        "label": "Class of June 2026",
+        "count": 103
+      },
+      {
+        "key": "2026-05",
+        "label": "Class of May 2026",
+        "count": 2749
+      }
+    ]
+  }
+}

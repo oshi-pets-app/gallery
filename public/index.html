@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <title>Petdex Gallery for Pet Overlay</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="site-header">
+        <div class="brand-mark">▣</div>
+        <div>
+          <p class="eyebrow">Petdex static gallery</p>
+          <h1>Pick a companion</h1>
+        </div>
+      </header>
+
+      <section class="controls" aria-label="Gallery controls">
+        <label class="search-field">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="Name, kind, vibe" autocomplete="off" />
+        </label>
+        <label class="sort-field">
+          <span>Sort</span>
+          <select id="sortSelect">
+            <option value="recent">Newest</option>
+            <option value="installed">Most installed</option>
+            <option value="popular">Most liked</option>
+            <option value="alpha">Alphabetical</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="filter-row" aria-label="Filters">
+        <select id="kindFilter"><option value="">All kinds</option></select>
+        <select id="vibeFilter"><option value="">All vibes</option></select>
+        <select id="colorFilter"><option value="">All colors</option></select>
+        <button id="clearButton" type="button">Clear</button>
+      </section>
+
+      <p id="statusText" class="status-text">Loading Petdex snapshot…</p>
+      <section id="galleryGrid" class="gallery-grid" aria-live="polite"></section>
+    </main>
+
+    <template id="petCardTemplate">
+      <article class="pet-card">
+        <div class="card-accent"></div>
+        <div class="pet-card-top">
+          <p class="dex-number"></p>
+          <p class="installs"></p>
+        </div>
+        <div class="sprite-stage">
+          <span class="featured-badge">★ FEATURED</span>
+          <canvas width="160" height="160"></canvas>
+        </div>
+        <div class="pet-card-body">
+          <div class="title-row">
+            <h2></h2>
+            <span class="kind"></span>
+          </div>
+          <p class="description"></p>
+          <p class="batch"></p>
+          <div class="tags"></div>
+          <p class="author"></p>
+          <div class="action-row">
+            <p class="metrics"></p>
+            <button class="install-button" type="button">Install</button>
+          </div>
+          <p class="install-hint"></p>
+        </div>
+      </article>
+    </template>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
