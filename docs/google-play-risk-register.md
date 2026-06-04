@@ -72,7 +72,8 @@ Policy references:
 ### Petdex API and asset data
 
 - Risk: The gallery republishes Petdex metadata, spritesheet URLs, ZIP URLs,
-  metrics, colors, and submitter display names in a public static file.
+  metrics, colors, visual style classifications, and submitter display names in
+  public static files.
 - Why it matters: Privacy and Data safety explanations must match the public
   content and app handoff flow.
 - Current mitigation: The gallery reads public Petdex data only and does not
@@ -81,6 +82,23 @@ Policy references:
   personal data is not sent to this gallery.
 - Owner: Gallery owner.
 - Status: Open.
+- Last reviewed: 2026-06-05.
+
+### Pixel art classification
+
+- Risk: The gallery classifies each Petdex spritesheet as `pixel_art` or
+  `other` and exposes that classification as a search filter.
+- Why it matters: The classification is generated automatically and may be
+  wrong for some works, so it should not be presented as a rights, quality, or
+  safety decision.
+- Current mitigation: The classifier records a confidence score and caches the
+  result by slug and spritesheet URL so each unchanged pet is classified once.
+  The implementation uses an original lightweight heuristic after reviewing
+  public GitHub projects; no third-party classifier code is copied.
+- Required before release: Keep the filter label neutral and update the cache
+  only through the documented generation script.
+- Owner: Gallery owner.
+- Status: Controlled.
 - Last reviewed: 2026-06-05.
 
 ### MIT copied/adapted Petdex UI code

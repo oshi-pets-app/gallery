@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:pets": "node scripts/build-pets-json.mjs",
+    "check": "node --check public/app.js && node --check scripts/build-pets-json.mjs && node --check scripts/visual-style-classifier.mjs"
+  },
+  "dependencies": {
+    "sharp": "0.34.5"
+  }
+}

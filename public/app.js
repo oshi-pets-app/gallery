@@ -53,6 +53,7 @@ const state = {
   activeKinds: new Set(),
   activeVibes: new Set(),
   activeColors: new Set(),
+  activeVisualStyles: new Set(),
 };
 
 const elements = {
@@ -128,11 +129,13 @@ function renderFilters() {
   const colors = COLOR_FAMILIES.filter((color) =>
     state.pets.some((pet) => String(pet.colorFamily || "").toLowerCase() === color),
   );
+  const visualStyleCounts = countValues(state.pets.map((pet) => pet.visualStyle || "other"));
 
   const groups = [
     { label: "Type", tone: "kind", values: kinds, counts: countValues(state.pets.map((pet) => pet.kind)) },
     { label: "Vibe", tone: "vibe", values: vibes, counts: countValues(state.pets.flatMap((pet) => pet.vibes || [])) },
     { label: "Color", tone: "color", values: colors, counts: countValues(state.pets.map((pet) => pet.colorFamily)) },
+    { label: "Visual style", tone: "visualStyle", values: ["pixel_art", "other"], counts: visualStyleCounts, control: "checkbox" },
   ];
 
   elements.desktopFilters.replaceChildren(...groups.map((group) => renderFilterRow(group)));
@@ -166,6 +169,8 @@ function renderFilterGroup(group) {
 }
 
 function renderFilterChip(group, value) {
+  if (group.control === "checkbox") return renderFilterCheckbox(group, value);
+
   const button = document.createElement("button");
   button.type = "button";
   button.className = "filter-chip";
@@ -178,11 +183,11 @@ function renderFilterChip(group, value) {
   if (group.tone === "color") dot.style.backgroundColor = FAMILY_DOT[value] || DEFAULT_ACCENT;
 
   const text = document.createElement("span");
-  text.textContent = value;
+  text.textContent = filterLabel(value);
 
   const count = document.createElement("span");
   count.className = "chip-count";
-  count.textContent = String(group.counts[value] || 0);
+  count.textContent = `(${group.counts[value] || 0})`;
 
   button.append(dot, text, count);
   button.addEventListener("click", () => {
@@ -194,10 +199,39 @@ function renderFilterChip(group, value) {
   return button;
 }
 
+function renderFilterCheckbox(group, value) {
+  const label = document.createElement("label");
+  label.className = "filter-checkbox";
+
+  const input = document.createElement("input");
+  input.type = "checkbox";
+  input.dataset.tone = group.tone;
+  input.dataset.value = value;
+  input.checked = activeSet(group.tone).has(value);
+
+  const text = document.createElement("span");
+  text.textContent = filterLabel(value);
+
+  const count = document.createElement("span");
+  count.className = "chip-count";
+  count.textContent = `(${group.counts[value] || 0})`;
+
+  input.addEventListener("change", () => {
+    toggleFilter(group.tone, value);
+    resetVisibleCount();
+    syncFilterPressedState();
+    render();
+  });
+
+  label.append(input, text, count);
+  return label;
+}
+
 function activeSet(tone) {
   if (tone === "kind") return state.activeKinds;
   if (tone === "vibe") return state.activeVibes;
-  return state.activeColors;
+  if (tone === "color") return state.activeColors;
+  return state.activeVisualStyles;
 }
 
 function toggleFilter(tone, value) {
@@ -210,6 +244,9 @@ function syncFilterPressedState() {
   document.querySelectorAll(".filter-chip").forEach((chip) => {
     chip.setAttribute("aria-pressed", String(activeSet(chip.dataset.tone).has(chip.dataset.value)));
   });
+  document.querySelectorAll(".filter-checkbox input").forEach((input) => {
+    input.checked = activeSet(input.dataset.tone).has(input.dataset.value);
+  });
 }
 
 function render() {
@@ -221,6 +258,7 @@ function render() {
     .filter((pet) => state.activeKinds.size === 0 || state.activeKinds.has(pet.kind))
     .filter((pet) => state.activeVibes.size === 0 || (pet.vibes || []).some((vibe) => state.activeVibes.has(vibe)))
     .filter((pet) => state.activeColors.size === 0 || state.activeColors.has(String(pet.colorFamily || "").toLowerCase()))
+    .filter((pet) => state.activeVisualStyles.size === 0 || state.activeVisualStyles.has(pet.visualStyle || "other"))
     .sort(sortPets(sort));
 
   const visiblePets = state.filteredPets.slice(0, state.visibleCount);
@@ -289,13 +327,20 @@ function renderPetCard(pet, index) {
     tags.append(chip);
   });
 
-  applySprite(card.querySelector(".pet-sprite"), pet.spritesheetUrl || pet.spritesheetPath);
+  applySprite(card.querySelector(".pet-sprite"), pet);
 
   bindCardActions(card, pet);
   return card;
 }
 
-function applySprite(sprite, spritesheetUrl) {
+function applySprite(sprite, pet) {
+  const previewUrl = pet.previewUrl || (pet.slug ? `https://petdex.crafter.run/api/pets/${encodeURIComponent(pet.slug)}/sticker` : "");
+  const spritesheetUrl = pet.spritesheetUrl || pet.spritesheetPath;
+  if (previewUrl) {
+    sprite.classList.add("static-preview");
+    sprite.style.setProperty("--sprite-url", `url("${cssUrl(previewUrl)}")`);
+    return;
+  }
   if (!spritesheetUrl) {
     sprite.classList.add("missing");
     return;
@@ -399,6 +444,7 @@ function clearFilters() {
   state.activeKinds.clear();
   state.activeVibes.clear();
   state.activeColors.clear();
+  state.activeVisualStyles.clear();
   resetVisibleCount();
   syncFilterPressedState();
   render();
@@ -413,7 +459,7 @@ function hasActiveFilters() {
 }
 
 function activeFilterCount() {
-  return state.activeKinds.size + state.activeVibes.size + state.activeColors.size;
+  return state.activeKinds.size + state.activeVibes.size + state.activeColors.size + state.activeVisualStyles.size;
 }
 
 function installLink(pet) {
@@ -480,6 +526,12 @@ function compactCount(value) {
 
 function formatNumber(value) {
   return Number(value || 0).toLocaleString("en-US");
+}
+
+function filterLabel(value) {
+  if (value === "pixel_art") return "Pixel art";
+  if (value === "other") return "Other";
+  return value;
 }
 
 function cssUrl(value) {

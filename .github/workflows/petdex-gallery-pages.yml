@@ -40,8 +40,11 @@ jobs:
         with:
           node-version: "22"
 
+      - name: Install dependencies
+        run: npm ci
+
       - name: Build Petdex snapshot
-        run: node scripts/build-pets-json.mjs
+        run: npm run build:pets
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

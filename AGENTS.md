@@ -7,6 +7,8 @@ Update the risk register when a change adds or modifies any of these areas:
 
 - External Petdex content, UGC/fan-work display, report links, takedown flows,
   or rights complaint handling.
+- Pixel art / visual style classification, classification cache format, or
+  gallery filters that expose generated content metadata.
 - Install/Open in app links, deep link behavior, custom schemes, App Links, ZIP
   URLs, downloadable assets, or browser-to-app handoff behavior.
 - Network destinations, static JSON generation, Petdex API usage, GitHub Pages

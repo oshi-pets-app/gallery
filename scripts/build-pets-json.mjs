@@ -1,10 +1,12 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { classifyPetVisualStyles } from "./visual-style-classifier.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const repoRoot = resolve(__dirname, "..");
 const outputPath = resolve(repoRoot, "public", "pets.json");
+const classificationsPath = resolve(repoRoot, "public", "pet-visual-classifications.json");
 const apiUrl = "https://petdex.crafter.run/api/pets/search";
 const limit = Number(process.env.PETDEX_GALLERY_LIMIT || 60);
 const maxPages = Number(process.env.PETDEX_GALLERY_MAX_PAGES || 100);
@@ -52,6 +54,7 @@ for (let page = 0; page < maxPages; page += 1) {
 }
 
 const complete = !nextCursor && (total === 0 || petsBySlug.size >= total);
+const pets = await classifyPetVisualStyles([...petsBySlug.values()], { cachePath: classificationsPath });
 
 const snapshot = {
   generatedAt: new Date().toISOString(),
@@ -61,7 +64,7 @@ const snapshot = {
   total,
   complete,
   nextCursor,
-  pets: [...petsBySlug.values()],
+  pets,
   facets,
 };
 
@@ -78,6 +81,7 @@ function normalizePet(pet) {
     slug: pet.slug || "",
     displayName: pet.displayName || pet.slug || "Pet",
     description: pet.description || "",
+    previewUrl: pet.slug ? `https://petdex.crafter.run/api/pets/${encodeURIComponent(pet.slug)}/sticker` : "",
     spritesheetUrl: pet.spritesheetPath || pet.spritesheetUrl || "",
     petJsonUrl: pet.petJsonPath || pet.petJsonUrl || "",
     zipUrl: pet.zipUrl || null,

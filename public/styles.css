@@ -320,6 +320,40 @@ h1 {
   color: rgba(10, 10, 12, 0.62);
 }
 
+.filter-checkbox {
+  display: inline-flex;
+  min-width: 0;
+  min-height: 30px;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid var(--border-base);
+  border-radius: 999px;
+  background: rgba(38, 38, 44, 0.52);
+  color: var(--muted-2);
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+
+.filter-checkbox input {
+  width: 14px;
+  height: 14px;
+  accent-color: var(--brand);
+  flex: 0 0 auto;
+}
+
+.filter-checkbox:has(input:checked) {
+  border-color: transparent;
+  background: var(--inverse);
+  color: var(--on-inverse);
+}
+
+.filter-checkbox:has(input:checked) .chip-count {
+  color: rgba(10, 10, 12, 0.62);
+}
+
 .status-text,
 .end-text {
   margin: 0;
@@ -511,6 +545,13 @@ h1 {
   display: grid;
   place-items: center;
   background-image: none;
+}
+
+.pet-sprite.static-preview {
+  animation: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .pet-sprite.missing::before {
