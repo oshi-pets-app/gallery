@@ -1,36 +1,69 @@
-const PETDEX_COLUMNS = 8;
-const PETDEX_ROWS = 9;
-const IDLE_ROW = 0;
-const IDLE_MIDDLE_FRAME = 3;
-const FALLBACK_ACCENT = "#1E90FF";
-const FAMILY_COLORS = {
-  red: "#EF4444",
-  orange: "#F59E0B",
-  yellow: "#EAB308",
-  lime: "#84CC16",
-  green: "#22C55E",
-  teal: "#14B8A6",
-  blue: FALLBACK_ACCENT,
-  indigo: "#6366F1",
-  purple: "#A855F7",
-  pink: "#EC4899",
-  brown: "#A16207",
-  neutral: "#A8A29E",
+const PET_STATES = [
+  { id: "idle", label: "Idle", row: 0, frames: 6, durationMs: 1100 },
+  { id: "running-right", label: "Run Right", row: 1, frames: 8, durationMs: 1060 },
+  { id: "running-left", label: "Run Left", row: 2, frames: 8, durationMs: 1060 },
+  { id: "waving", label: "Waving", row: 3, frames: 4, durationMs: 700 },
+  { id: "jumping", label: "Jumping", row: 4, frames: 5, durationMs: 840 },
+  { id: "failed", label: "Failed", row: 5, frames: 8, durationMs: 1220 },
+  { id: "waiting", label: "Waiting", row: 6, frames: 6, durationMs: 1010 },
+  { id: "running", label: "Running", row: 7, frames: 6, durationMs: 820 },
+  { id: "review", label: "Review", row: 8, frames: 6, durationMs: 1030 },
+];
+
+const COLOR_FAMILIES = [
+  "red",
+  "orange",
+  "yellow",
+  "lime",
+  "green",
+  "teal",
+  "blue",
+  "indigo",
+  "purple",
+  "pink",
+  "brown",
+  "neutral",
+];
+
+const FAMILY_DOT = {
+  red: "#ef4444",
+  orange: "#f97316",
+  yellow: "#eab308",
+  lime: "#84cc16",
+  green: "#22c55e",
+  teal: "#14b8a6",
+  blue: "#3b82f6",
+  indigo: "#6366f1",
+  purple: "#a855f7",
+  pink: "#ec4899",
+  brown: "#a16207",
+  neutral: "#737373",
 };
+
+const DEFAULT_ACCENT = "#6478f6";
 
 const state = {
   pets: [],
   filteredPets: [],
+  activeKinds: new Set(),
+  activeVibes: new Set(),
+  activeColors: new Set(),
 };
 
 const elements = {
   searchInput: document.querySelector("#searchInput"),
   sortSelect: document.querySelector("#sortSelect"),
-  kindFilter: document.querySelector("#kindFilter"),
-  vibeFilter: document.querySelector("#vibeFilter"),
-  colorFilter: document.querySelector("#colorFilter"),
+  clearSearchButton: document.querySelector("#clearSearchButton"),
   clearButton: document.querySelector("#clearButton"),
+  clearTopButton: document.querySelector("#clearTopButton"),
+  filtersButton: document.querySelector("#filtersButton"),
+  closeFiltersButton: document.querySelector("#closeFiltersButton"),
+  filterSheet: document.querySelector("#filterSheet"),
+  desktopFilters: document.querySelector("#desktopFilters"),
+  sheetFilters: document.querySelector("#sheetFilters"),
   statusText: document.querySelector("#statusText"),
+  endText: document.querySelector("#endText"),
+  galleryEyebrow: document.querySelector("#galleryEyebrow"),
   galleryGrid: document.querySelector("#galleryGrid"),
   template: document.querySelector("#petCardTemplate"),
 };
@@ -44,7 +77,7 @@ async function init() {
     if (!response.ok) throw new Error(`pets.json returned HTTP ${response.status}`);
     const snapshot = await response.json();
     state.pets = Array.isArray(snapshot.pets) ? snapshot.pets : [];
-    populateFilters(state.pets);
+    renderFilters();
     render();
   } catch (error) {
     elements.statusText.textContent = `Petdex snapshot could not load: ${error.message}`;
@@ -54,53 +87,240 @@ async function init() {
 function bindControls() {
   elements.searchInput.addEventListener("input", render);
   elements.sortSelect.addEventListener("change", render);
-  elements.kindFilter.addEventListener("change", render);
-  elements.vibeFilter.addEventListener("change", render);
-  elements.colorFilter.addEventListener("change", render);
-  elements.clearButton.addEventListener("click", () => {
+  elements.clearSearchButton.addEventListener("click", () => {
     elements.searchInput.value = "";
-    elements.kindFilter.value = "";
-    elements.vibeFilter.value = "";
-    elements.colorFilter.value = "";
     render();
+  });
+  elements.clearButton.addEventListener("click", clearFilters);
+  elements.clearTopButton.addEventListener("click", clearFilters);
+  elements.filtersButton.addEventListener("click", openFilters);
+  elements.closeFiltersButton.addEventListener("click", closeFilters);
+  elements.filterSheet.addEventListener("click", (event) => {
+    if (event.target === elements.filterSheet) closeFilters();
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !elements.filterSheet.hidden) closeFilters();
   });
 }
 
-function populateFilters(pets) {
-  fillSelect(elements.kindFilter, "All kinds", uniqueValues(pets.map((pet) => pet.kind)));
-  fillSelect(elements.vibeFilter, "All vibes", uniqueValues(pets.flatMap((pet) => pet.vibes || [])));
-  fillSelect(elements.colorFilter, "All colors", uniqueValues(pets.map((pet) => pet.colorFamily)));
+function renderFilters() {
+  const kinds = uniqueValues(state.pets.map((pet) => pet.kind));
+  const vibes = uniqueValues(state.pets.flatMap((pet) => pet.vibes || []));
+  const colors = COLOR_FAMILIES.filter((color) =>
+    state.pets.some((pet) => String(pet.colorFamily || "").toLowerCase() === color),
+  );
+
+  const groups = [
+    { label: "Type", tone: "kind", values: kinds, counts: countValues(state.pets.map((pet) => pet.kind)) },
+    { label: "Vibe", tone: "vibe", values: vibes, counts: countValues(state.pets.flatMap((pet) => pet.vibes || [])) },
+    { label: "Color", tone: "color", values: colors, counts: countValues(state.pets.map((pet) => pet.colorFamily)) },
+  ];
+
+  elements.desktopFilters.replaceChildren(...groups.map((group) => renderFilterRow(group)));
+  elements.sheetFilters.replaceChildren(...groups.map((group) => renderFilterGroup(group)));
 }
 
-function fillSelect(select, label, values) {
-  select.innerHTML = "";
-  select.append(new Option(label, ""));
-  values.forEach((value) => select.append(new Option(value, value)));
+function renderFilterRow(group) {
+  const row = document.createElement("div");
+  row.className = "filter-row";
+  const label = document.createElement("span");
+  label.className = "filter-label";
+  label.textContent = group.label;
+  const wrap = document.createElement("div");
+  wrap.className = "chip-wrap";
+  group.values.forEach((value) => wrap.append(renderFilterChip(group, value)));
+  row.append(label, wrap);
+  return row;
 }
 
-function uniqueValues(values) {
-  return [...new Set(values.filter(Boolean).map((value) => String(value).trim()).filter(Boolean))].sort();
+function renderFilterGroup(group) {
+  const wrapper = document.createElement("div");
+  wrapper.className = "filter-group";
+  const label = document.createElement("p");
+  label.className = "filter-label";
+  label.textContent = group.label;
+  const wrap = document.createElement("div");
+  wrap.className = "chip-wrap";
+  group.values.forEach((value) => wrap.append(renderFilterChip(group, value)));
+  wrapper.append(label, wrap);
+  return wrapper;
+}
+
+function renderFilterChip(group, value) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "filter-chip";
+  button.dataset.tone = group.tone;
+  button.dataset.value = value;
+  button.setAttribute("aria-pressed", String(activeSet(group.tone).has(value)));
+
+  const dot = document.createElement("span");
+  dot.className = "chip-dot";
+  if (group.tone === "color") dot.style.backgroundColor = FAMILY_DOT[value] || DEFAULT_ACCENT;
+
+  const text = document.createElement("span");
+  text.textContent = value;
+
+  const count = document.createElement("span");
+  count.className = "chip-count";
+  count.textContent = String(group.counts[value] || 0);
+
+  button.append(dot, text, count);
+  button.addEventListener("click", () => {
+    toggleFilter(group.tone, value);
+    syncFilterPressedState();
+    render();
+  });
+  return button;
+}
+
+function activeSet(tone) {
+  if (tone === "kind") return state.activeKinds;
+  if (tone === "vibe") return state.activeVibes;
+  return state.activeColors;
+}
+
+function toggleFilter(tone, value) {
+  const set = activeSet(tone);
+  if (set.has(value)) set.delete(value);
+  else set.add(value);
+}
+
+function syncFilterPressedState() {
+  document.querySelectorAll(".filter-chip").forEach((chip) => {
+    chip.setAttribute("aria-pressed", String(activeSet(chip.dataset.tone).has(chip.dataset.value)));
+  });
 }
 
 function render() {
   const query = elements.searchInput.value.trim().toLowerCase();
-  const selectedKind = elements.kindFilter.value;
-  const selectedVibe = elements.vibeFilter.value;
-  const selectedColor = elements.colorFilter.value;
   const sort = elements.sortSelect.value;
 
   state.filteredPets = state.pets
     .filter((pet) => matchesQuery(pet, query))
-    .filter((pet) => !selectedKind || pet.kind === selectedKind)
-    .filter((pet) => !selectedVibe || (pet.vibes || []).includes(selectedVibe))
-    .filter((pet) => !selectedColor || pet.colorFamily === selectedColor)
+    .filter((pet) => state.activeKinds.size === 0 || state.activeKinds.has(pet.kind))
+    .filter((pet) => state.activeVibes.size === 0 || (pet.vibes || []).some((vibe) => state.activeVibes.has(vibe)))
+    .filter((pet) => state.activeColors.size === 0 || state.activeColors.has(String(pet.colorFamily || "").toLowerCase()))
     .sort(sortPets(sort));
 
-  elements.galleryGrid.innerHTML = "";
-  state.filteredPets.forEach((pet, index) => {
-    elements.galleryGrid.append(renderPetCard(pet, index));
+  elements.galleryGrid.replaceChildren();
+  if (state.filteredPets.length === 0) {
+    const empty = document.createElement("div");
+    empty.className = "no-results";
+    empty.textContent = "No pets found. Try clearing filters.";
+    elements.galleryGrid.append(empty);
+  } else {
+    state.filteredPets.forEach((pet, index) => {
+      elements.galleryGrid.append(renderPetCard(pet, index));
+    });
+  }
+
+  const filtersActive = hasActiveFilters();
+  elements.clearButton.hidden = !filtersActive;
+  elements.clearTopButton.hidden = !filtersActive;
+  elements.clearSearchButton.hidden = elements.searchInput.value.length === 0;
+  elements.filtersButton.textContent = activeFilterCount() > 0 ? `Filters (${activeFilterCount()})` : "Filters";
+  elements.galleryEyebrow.textContent = `Gallery · ${state.pets.length} pets`;
+  elements.statusText.textContent = filtersActive
+    ? `${state.filteredPets.length} matches`
+    : `${state.filteredPets.length} pets`;
+  elements.endText.hidden = state.filteredPets.length === 0;
+  elements.endText.textContent = `End of gallery · ${state.filteredPets.length} shown`;
+}
+
+function renderPetCard(pet, index) {
+  const card = elements.template.content.firstElementChild.cloneNode(true);
+  const accent = accentForPet(pet);
+  const rgb = hexToRgb(accent).join(" ");
+  const metrics = {
+    likeCount: metric(pet, "likeCount"),
+    installCount: metric(pet, "installCount"),
+  };
+
+  card.style.setProperty("--pet-accent", accent);
+  card.style.setProperty("--pet-accent-rgb", rgb);
+  card.querySelector(".dex-number").textContent = `No. ${String(index + 1).padStart(3, "0")}`;
+  card.querySelector(".install-count-badge").textContent =
+    metrics.installCount > 0 ? `${compactCount(metrics.installCount)} installs` : "";
+  card.querySelector("h2").textContent = pet.displayName || pet.slug || "Pet";
+  card.querySelector(".kind").textContent = pet.kind || "";
+  card.querySelector(".description").textContent = pet.description || "";
+  card.querySelector(".batch").textContent = batchLabel(pet.approvedAt);
+  card.querySelector(".author").textContent = authorLabel(pet);
+  card.querySelector(".like-count").textContent = metrics.likeCount > 0 ? compactCount(metrics.likeCount) : "";
+  card.querySelector(".pet-sprite-frame").setAttribute("aria-label", `${pet.displayName || pet.slug || "Pet"} animated`);
+  if (pet.featured) card.classList.add("featured");
+
+  const tags = card.querySelector(".tags");
+  [...new Set([...(pet.vibes || []), ...(pet.tags || [])])].slice(0, 5).forEach((tag) => {
+    const chip = document.createElement("span");
+    chip.className = "tag";
+    chip.textContent = `#${tag}`;
+    tags.append(chip);
   });
-  elements.statusText.textContent = `${state.filteredPets.length} pets`;
+
+  applySprite(card.querySelector(".pet-sprite"), pet.spritesheetUrl || pet.spritesheetPath);
+
+  bindCardActions(card, pet);
+  return card;
+}
+
+function applySprite(sprite, spritesheetUrl) {
+  if (!spritesheetUrl) {
+    sprite.classList.add("missing");
+    return;
+  }
+  const animation = PET_STATES[hashString(spritesheetUrl) % PET_STATES.length] || PET_STATES[0];
+  sprite.style.setProperty("--sprite-url", `url("${cssUrl(spritesheetUrl)}")`);
+  sprite.style.setProperty("--sprite-row", String(animation.row));
+  sprite.style.setProperty("--sprite-frames", String(animation.frames));
+  sprite.style.setProperty("--sprite-duration", `${animation.durationMs}ms`);
+}
+
+function bindCardActions(card, pet) {
+  const installButton = card.querySelector(".install-button");
+  const downloadButton = card.querySelector(".download-action");
+  const shareButton = card.querySelector(".share-action");
+  const hint = card.querySelector(".install-hint");
+
+  if (!pet.zipUrl) {
+    installButton.disabled = true;
+    downloadButton.disabled = true;
+    hint.textContent = "No ZIP package is available for this pet.";
+  } else {
+    installButton.addEventListener("click", () => {
+      hint.textContent = "Opening Pet Overlay app...";
+      window.location.href = installLink(pet);
+      window.setTimeout(() => {
+        hint.textContent = "If the app did not open, install Pet Overlay first.";
+      }, 1400);
+    });
+    downloadButton.addEventListener("click", () => {
+      const link = document.createElement("a");
+      link.href = pet.zipUrl;
+      link.download = `${pet.slug || "pet"}.zip`;
+      link.rel = "noopener";
+      document.body.append(link);
+      link.click();
+      link.remove();
+    });
+  }
+
+  shareButton.addEventListener("click", async () => {
+    const shareUrl = new URL(window.location.href);
+    if (pet.slug) shareUrl.hash = pet.slug;
+    const title = pet.displayName || pet.slug || "Petdex pet";
+    if (navigator.share) {
+      await navigator.share({ title, url: shareUrl.toString() }).catch(() => {});
+      return;
+    }
+    if (navigator.clipboard) {
+      await navigator.clipboard.writeText(shareUrl.toString()).catch(() => {});
+      hint.textContent = "Pet link copied.";
+    } else {
+      hint.textContent = shareUrl.toString();
+    }
+  });
 }
 
 function matchesQuery(pet, query) {
@@ -110,9 +330,14 @@ function matchesQuery(pet, query) {
     pet.slug,
     pet.description,
     pet.kind,
+    pet.submittedByName,
+    pet.submittedBy?.name,
     ...(pet.vibes || []),
     ...(pet.tags || []),
-  ].join(" ").toLowerCase();
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
   return haystack.includes(query);
 }
 
@@ -120,7 +345,7 @@ function sortPets(sort) {
   return (left, right) => {
     if (sort === "installed") return metric(right, "installCount") - metric(left, "installCount");
     if (sort === "popular") return metric(right, "likeCount") - metric(left, "likeCount");
-    if (sort === "alpha") return String(left.displayName).localeCompare(String(right.displayName));
+    if (sort === "alpha") return String(left.displayName || left.slug).localeCompare(String(right.displayName || right.slug));
     return new Date(right.approvedAt || 0).getTime() - new Date(left.approvedAt || 0).getTime();
   };
 }
@@ -129,80 +354,31 @@ function metric(pet, key) {
   return Number(pet?.metrics?.[key] ?? pet?.[key] ?? 0);
 }
 
-function renderPetCard(pet, index) {
-  const card = elements.template.content.firstElementChild.cloneNode(true);
-  const accent = accentForPet(pet);
-  card.style.setProperty("--blue", accent);
-  card.querySelector(".card-accent").style.background = accent;
-  card.querySelector(".sprite-stage").style.background = `linear-gradient(135deg, ${withAlpha(accent, 0.34)}, #1b2745 48%, #14202e)`;
-  card.querySelector(".dex-number").textContent = `No. ${String(index + 1).padStart(3, "0")}`;
-  card.querySelector(".installs").textContent = `${compactCount(metric(pet, "installCount"))} installs`;
-  card.querySelector("h2").textContent = pet.displayName || pet.slug || "Pet";
-  card.querySelector(".kind").textContent = pet.kind || "";
-  card.querySelector(".description").textContent = pet.description || "";
-  card.querySelector(".batch").textContent = batchLabel(pet.approvedAt);
-  card.querySelector(".author").textContent = pet.submittedByName ? `by ${pet.submittedByName}` : "";
-  card.querySelector(".metrics").textContent = `${metric(pet, "installCount")} installs  ${metric(pet, "likeCount")} likes`;
-  if (pet.featured) card.classList.add("featured");
-
-  const tags = card.querySelector(".tags");
-  [...new Set([...(pet.vibes || []), ...(pet.tags || [])])].slice(0, 4).forEach((tag) => {
-    const chip = document.createElement("span");
-    chip.className = "tag";
-    chip.textContent = `#${tag}`;
-    tags.append(chip);
-  });
-
-  drawSpritePreview(card.querySelector("canvas"), pet.spritesheetUrl || pet.spritesheetPath);
-
-  const installButton = card.querySelector(".install-button");
-  const hint = card.querySelector(".install-hint");
-  if (!pet.zipUrl) {
-    installButton.disabled = true;
-    hint.textContent = "No ZIP package is available for this pet.";
-  } else {
-    installButton.addEventListener("click", () => {
-      const link = installLink(pet);
-      hint.textContent = "Opening Pet Overlay app…";
-      window.location.href = link;
-      window.setTimeout(() => {
-        hint.textContent = "If the app did not open, install Pet Overlay first.";
-      }, 1400);
-    });
-  }
-
-  return card;
+function openFilters() {
+  elements.filterSheet.hidden = false;
+  elements.closeFiltersButton.focus();
 }
 
-function drawSpritePreview(canvas, spritesheetUrl) {
-  const context = canvas.getContext("2d");
-  context.clearRect(0, 0, canvas.width, canvas.height);
-  if (!spritesheetUrl) return;
-  const image = new Image();
-  image.onload = () => {
-    const frameWidth = Math.floor(image.width / PETDEX_COLUMNS);
-    const frameHeight = Math.floor(image.height / PETDEX_ROWS);
-    if (frameWidth <= 0 || frameHeight <= 0) return;
-    context.clearRect(0, 0, canvas.width, canvas.height);
-    context.imageSmoothingEnabled = false;
-    context.drawImage(
-      image,
-      IDLE_MIDDLE_FRAME * frameWidth,
-      IDLE_ROW * frameHeight,
-      frameWidth,
-      frameHeight,
-      0,
-      0,
-      canvas.width,
-      canvas.height,
-    );
-  };
-  image.onerror = () => {
-    context.fillStyle = "#a7a8b2";
-    context.font = "24px system-ui";
-    context.fillText("?", 74, 88);
-  };
-  image.src = spritesheetUrl;
+function closeFilters() {
+  elements.filterSheet.hidden = true;
+  elements.filtersButton.focus();
+}
+
+function clearFilters() {
+  elements.searchInput.value = "";
+  state.activeKinds.clear();
+  state.activeVibes.clear();
+  state.activeColors.clear();
+  syncFilterPressedState();
+  render();
+}
+
+function hasActiveFilters() {
+  return elements.searchInput.value.trim().length > 0 || activeFilterCount() > 0;
+}
+
+function activeFilterCount() {
+  return state.activeKinds.size + state.activeVibes.size + state.activeColors.size;
 }
 
 function installLink(pet) {
@@ -212,33 +388,52 @@ function installLink(pet) {
   return `petoverlay://petdex/install?${params.toString()}`;
 }
 
-function accentForPet(pet) {
-  const dominant = normalizeHex(pet.dominantColor);
-  if (dominant) return dominant;
-  return FAMILY_COLORS[String(pet.colorFamily || "").toLowerCase()] || FALLBACK_ACCENT;
-}
-
-function normalizeHex(value) {
-  const trimmed = String(value || "").trim();
-  if (!trimmed) return null;
-  const normalized = trimmed.startsWith("#") ? trimmed : `#${trimmed}`;
-  return /^#[0-9a-fA-F]{6}([0-9a-fA-F]{2})?$/.test(normalized) ? normalized : null;
-}
-
-function withAlpha(hex, alpha) {
-  const normalized = normalizeHex(hex) || FALLBACK_ACCENT;
-  const value = normalized.slice(1, 7);
-  const red = parseInt(value.slice(0, 2), 16);
-  const green = parseInt(value.slice(2, 4), 16);
-  const blue = parseInt(value.slice(4, 6), 16);
-  return `rgba(${red}, ${green}, ${blue}, ${alpha})`;
+function authorLabel(pet) {
+  const name = pet.submittedByName || pet.submittedBy?.name;
+  return name ? `by ${name}` : "";
 }
 
 function batchLabel(value) {
   if (!value) return "";
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return "";
-  return `Class of ${date.toLocaleString("en-US", { month: "long" })} ${date.getUTCFullYear()}`;
+  return `Class of ${date.toLocaleString("en-US", { month: "long", timeZone: "UTC" })} ${date.getUTCFullYear()}`;
+}
+
+function accentForPet(pet) {
+  const dominant = normalizeHex(pet.dominantColor);
+  if (dominant) return dominant;
+  const family = String(pet.colorFamily || "").toLowerCase();
+  return FAMILY_DOT[family] || DEFAULT_ACCENT;
+}
+
+function normalizeHex(value) {
+  const trimmed = String(value || "").trim();
+  if (!trimmed) return null;
+  const normalized = trimmed.startsWith("#") ? trimmed : `#${trimmed}`;
+  return /^#[0-9a-fA-F]{6}$/.test(normalized) ? normalized : null;
+}
+
+function hexToRgb(hex) {
+  const normalized = normalizeHex(hex) || DEFAULT_ACCENT;
+  return [
+    parseInt(normalized.slice(1, 3), 16),
+    parseInt(normalized.slice(3, 5), 16),
+    parseInt(normalized.slice(5, 7), 16),
+  ];
+}
+
+function uniqueValues(values) {
+  return [...new Set(values.filter(Boolean).map((value) => String(value).trim()).filter(Boolean))].sort();
+}
+
+function countValues(values) {
+  return values.reduce((counts, value) => {
+    if (!value) return counts;
+    const key = String(value).trim();
+    counts[key] = (counts[key] || 0) + 1;
+    return counts;
+  }, {});
 }
 
 function compactCount(value) {
@@ -246,4 +441,16 @@ function compactCount(value) {
   if (count >= 1000000) return `${(count / 1000000).toFixed(1)}M`;
   if (count >= 1000) return `${(count / 1000).toFixed(1)}K`;
   return String(count);
+}
+
+function cssUrl(value) {
+  return String(value).replace(/\\/g, "\\\\").replace(/"/g, '\\"');
+}
+
+function hashString(value) {
+  let hash = 0;
+  for (let index = 0; index < value.length; index += 1) {
+    hash = (hash * 31 + value.charCodeAt(index)) >>> 0;
+  }
+  return hash;
 }

@@ -2,6 +2,9 @@
 
 This folder contains a static GitHub Pages gallery for Pet Overlay Compose.
 
+The gallery UI copies and adapts parts of the MIT-licensed Petdex project by
+Crafter Station. See `THIRD_PARTY_NOTICES.md` for attribution and license text.
+
 The page does not write to Android app storage. It lets the user browse a
 zero-server Petdex snapshot and opens the app through:
 
