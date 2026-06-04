@@ -3,7 +3,7 @@
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "17 17 * * *"
   push:
     branches:
       - main
@@ -13,6 +13,8 @@ on:
       - "public/**"
       - "scripts/**"
       - "README.md"
+      - "docs/**"
+      - "AGENTS.md"
 
 permissions:
   contents: read

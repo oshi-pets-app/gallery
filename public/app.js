@@ -41,10 +41,15 @@ const FAMILY_DOT = {
 };
 
 const DEFAULT_ACCENT = "#6478f6";
+const INITIAL_VISIBLE_COUNT = 60;
+const LOAD_MORE_COUNT = 60;
 
 const state = {
   pets: [],
   filteredPets: [],
+  visibleCount: INITIAL_VISIBLE_COUNT,
+  snapshotTotal: 0,
+  snapshotComplete: false,
   activeKinds: new Set(),
   activeVibes: new Set(),
   activeColors: new Set(),
@@ -63,6 +68,7 @@ const elements = {
   sheetFilters: document.querySelector("#sheetFilters"),
   statusText: document.querySelector("#statusText"),
   endText: document.querySelector("#endText"),
+  loadMoreButton: document.querySelector("#loadMoreButton"),
   galleryEyebrow: document.querySelector("#galleryEyebrow"),
   galleryGrid: document.querySelector("#galleryGrid"),
   template: document.querySelector("#petCardTemplate"),
@@ -77,6 +83,8 @@ async function init() {
     if (!response.ok) throw new Error(`pets.json returned HTTP ${response.status}`);
     const snapshot = await response.json();
     state.pets = Array.isArray(snapshot.pets) ? snapshot.pets : [];
+    state.snapshotTotal = Number(snapshot.total || state.pets.length);
+    state.snapshotComplete = Boolean(snapshot.complete);
     renderFilters();
     render();
   } catch (error) {
@@ -85,14 +93,25 @@ async function init() {
 }
 
 function bindControls() {
-  elements.searchInput.addEventListener("input", render);
-  elements.sortSelect.addEventListener("change", render);
+  elements.searchInput.addEventListener("input", () => {
+    resetVisibleCount();
+    render();
+  });
+  elements.sortSelect.addEventListener("change", () => {
+    resetVisibleCount();
+    render();
+  });
   elements.clearSearchButton.addEventListener("click", () => {
     elements.searchInput.value = "";
+    resetVisibleCount();
     render();
   });
   elements.clearButton.addEventListener("click", clearFilters);
   elements.clearTopButton.addEventListener("click", clearFilters);
+  elements.loadMoreButton.addEventListener("click", () => {
+    state.visibleCount += LOAD_MORE_COUNT;
+    render();
+  });
   elements.filtersButton.addEventListener("click", openFilters);
   elements.closeFiltersButton.addEventListener("click", closeFilters);
   elements.filterSheet.addEventListener("click", (event) => {
@@ -168,6 +187,7 @@ function renderFilterChip(group, value) {
   button.append(dot, text, count);
   button.addEventListener("click", () => {
     toggleFilter(group.tone, value);
+    resetVisibleCount();
     syncFilterPressedState();
     render();
   });
@@ -203,6 +223,8 @@ function render() {
     .filter((pet) => state.activeColors.size === 0 || state.activeColors.has(String(pet.colorFamily || "").toLowerCase()))
     .sort(sortPets(sort));
 
+  const visiblePets = state.filteredPets.slice(0, state.visibleCount);
+
   elements.galleryGrid.replaceChildren();
   if (state.filteredPets.length === 0) {
     const empty = document.createElement("div");
@@ -210,22 +232,30 @@ function render() {
     empty.textContent = "No pets found. Try clearing filters.";
     elements.galleryGrid.append(empty);
   } else {
-    state.filteredPets.forEach((pet, index) => {
+    visiblePets.forEach((pet, index) => {
       elements.galleryGrid.append(renderPetCard(pet, index));
     });
   }
 
   const filtersActive = hasActiveFilters();
+  const queryActive = elements.searchInput.value.trim().length > 0;
+  const indexedCount = state.pets.length;
+  const shownCount = visiblePets.length;
   elements.clearButton.hidden = !filtersActive;
   elements.clearTopButton.hidden = !filtersActive;
   elements.clearSearchButton.hidden = elements.searchInput.value.length === 0;
   elements.filtersButton.textContent = activeFilterCount() > 0 ? `Filters (${activeFilterCount()})` : "Filters";
-  elements.galleryEyebrow.textContent = `Gallery · ${state.pets.length} pets`;
-  elements.statusText.textContent = filtersActive
-    ? `${state.filteredPets.length} matches`
-    : `${state.filteredPets.length} pets`;
+  elements.galleryEyebrow.textContent = `Gallery · ${formatNumber(indexedCount)} pets indexed`;
+  elements.statusText.textContent = filtersActive || queryActive
+    ? `${formatNumber(state.filteredPets.length)} matches from ${formatNumber(indexedCount)} indexed / ${formatNumber(shownCount)} shown`
+    : `${formatNumber(indexedCount)} pets indexed / ${formatNumber(shownCount)} shown`;
+  elements.loadMoreButton.hidden = shownCount >= state.filteredPets.length || state.filteredPets.length === 0;
+  elements.loadMoreButton.textContent = `Load more (${formatNumber(state.filteredPets.length - shownCount)} left)`;
   elements.endText.hidden = state.filteredPets.length === 0;
-  elements.endText.textContent = `End of gallery · ${state.filteredPets.length} shown`;
+  elements.endText.textContent =
+    shownCount >= state.filteredPets.length
+      ? `End of gallery · ${formatNumber(shownCount)} shown`
+      : `${formatNumber(shownCount)} of ${formatNumber(state.filteredPets.length)} shown`;
 }
 
 function renderPetCard(pet, index) {
@@ -369,8 +399,13 @@ function clearFilters() {
   state.activeKinds.clear();
   state.activeVibes.clear();
   state.activeColors.clear();
+  resetVisibleCount();
   syncFilterPressedState();
   render();
+}
+
+function resetVisibleCount() {
+  state.visibleCount = INITIAL_VISIBLE_COUNT;
 }
 
 function hasActiveFilters() {
@@ -441,6 +476,10 @@ function compactCount(value) {
   if (count >= 1000000) return `${(count / 1000000).toFixed(1)}M`;
   if (count >= 1000) return `${(count / 1000).toFixed(1)}K`;
   return String(count);
+}
+
+function formatNumber(value) {
+  return Number(value || 0).toLocaleString("en-US");
 }
 
 function cssUrl(value) {
